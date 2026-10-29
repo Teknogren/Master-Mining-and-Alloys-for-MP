@@ -1,0 +1,85 @@
+{
+	"Break_Aluminum_Ore_into_Aluminum_Chunks": "Break Aluminum Ore into Aluminum Chunks",
+	"Break_Copper_Ore_into_Copper_Chunks": "Break Copper Ore into Copper Chunks",
+	"Break_Lead_Ore_into_Lead_Chunks": "Break Lead Ore into Lead Chunks",
+	"Break_Saltpeter_into_Saltpeter_Chunks": "Break Saltpeter into Saltpeter Chunks",
+	"Break_Sulfur_into_Sulfur_Chunks": "Break Sulfur into Sulfur Chunks",
+	"Break_Tin_Ore_into_Tin_Chunks": "Break Tin Ore into Tin Chunks",
+	"Break_Zinc_Ore_into_Zinc_Chunks": "Break Zinc Ore into Zinc Chunks",
+
+	"Pulverize_Coal": "Mill Charcoal into Pulverized Coal",
+	"Pulverize_Coke": "Mill Coke into Pulverized Coal",
+	"Pulverize_Crushed_Stone": "Mill Crushed Stone into Pulverized Stone",
+	"Pulverize_Saltpeter": "Mill Saltpeter Chunks into Pulverized Saltpeter",
+	"Pulverize_Sulfur": "Mill Sulfur Chunks into Pulverized Sulfur",
+
+	"Crush_Stone": "Crush Stone",
+
+	"Churn_Asphalt_Mixture": "Make Bag of Asphalt Mixture",
+	"Mix_Concrete_Powder": "Make Bag of Cement Powder",
+
+	"Fill_Dirt_Sack": "Fill Bag with Dirt",
+	"Fill_Sand_Sack": "Fill Bag with Sand",
+	"Fill_Gravel_Sack": "Fill Bag with Gravel",
+	
+	"Fill_Crucible_Brass": "Fill Crucible with Brass",
+	"Fill_Crucible_Bronze": "Fill Crucible with Bronze",
+	"Fill_Crucible_Corten_Steel": "Fill Crucible with Corten Steel",
+	"Fill_Crucible_Lead": "Fill Crucible with Lead",
+	"Fill_Crucible_Tin": "Fill Crucible with Tin",
+	"Fill_Crucible_Zinc": "Fill Crucible with Zinc",
+
+	"Cast_Brass_Ingot": "Forge Brass Ingot",
+	"Cast_Bronze_Ingot": "Forge Bronze Ingot",
+	"Cast_Corten_Steel_Ingot": "Forge Corten Steel Ingot",
+	"Cast_Lead_Ingot": "Forge Lead Ingot",
+	"Cast_Tin_Ingot": "Forge Tin Ingot",
+	"Cast_Zinc_Ingot": "Forge Zinc Ingot",
+
+	"Forge_Aluminized_Steel_Ingot": "Forge Aluminized Steel Ingot",
+	"Forge_BimetalAlloy_Ingot": "Forge BimetalAlloy Ingot",
+
+	"Forge_Aluminized_Steel_Ingot_Into_Sheets": "Forge Aluminized Steel Ingot into Sheets",
+	"Forge_BimetalAlloy_Ingot_Into_Sheets": "Forge BimetalAlloy Ingot into Sheets",
+	"Forge_Brass_Ingot_Into_Sheets": "Forge Brass Ingot into Sheets",
+	"Forge_Bronze_Ingot_Into_Sheets": "Forge Bronze Ingot into Sheets",
+	"Forge_Corten_Steel_Ingot_Into_Sheets": "Forge Corten Steel Ingot into Sheets",
+	"Forge_Lead_Ingot_Into_Sheets": "Forge Lead Ingot into Sheets",
+	"Forge_Tin_Ingot_Into_Sheets": "Forge Tin Ingot into Sheets",
+	"Forge_Zinc_Ingot_Into_Sheets": "Forge Zinc Ingot into Sheets",
+
+	"Mix_Gunpowder": "Mix Gunpowder",
+	"Press_Mold_Large_Casing_Manually": "Press Large Casings Mold Manually",
+	"Press_Mold_Large_Casing": "Press Large Casings Mold",
+	"Press_Mold_Small_Casing_Manually": "Press Small Casings Mold Manually",
+	"Press_Mold_Small_Casing": "Press Small Casings Mold",
+	"Press_Mold_Base_Head_Manually": "Press Base Head Mold Manually",
+	"Press_Mold_Base_Head": "Press Base Head Mold",
+
+	"Fire_Mold_Large_Casing": "Fire Large Casings Mold",
+	"Fire_Mold_Small_Casing": "Fire Small Casings Mold",
+	"Fire_Mold_Base_Head": "Fire Base Head Mold",
+
+	"Cast_SteelMold_Large_Casing": "Cast Steel Large Casings Mold",
+	"Cast_SteelMold_Small_Casing": "Cast Steel Small Casings Mold",
+	"Cast_SteelMold_Base_Head": "Cast Steel Base Head Mold",
+	"Forge_SteelMold_Large_Bullets": "Forge Steel Large Bullets Mold",
+	"Forge_SteelMold_Small_Bullets": "Forge Steel Small Bullets Mold",
+	"Forge_SteelMold_Buck_Shots": "Forge Steel Buck Shots Mold",
+
+	"UnpackSetOfMiningBooks": "Unpack Set of Mining Books",
+	"PackSetOfMiningBooks": "Pack Mining Books into a Set",
+
+	"Press_Ammo_22": "Press Box of .22 Rounds",
+	"Press_Ammo_38": "Press Box of .38 Special Rounds",
+	"Press_Ammo_9x19": "Press Box of 9x19mm Rounds",
+	"Press_Ammo_44": "Press Box of .44 Magnum Rounds",
+	"Press_Ammo_45": "Press Box of .45 ACP Rounds",
+	"Press_Ammo_357": "Press Box of .357 Magnum Rounds",
+	"Press_Ammo_3030": "Press Box of 30.30 Rounds",
+	"Press_Ammo_223": "Press Box of .223 Rounds",
+	"Press_Ammo_76239": "Press Box of 762x39mm Rounds",
+	"Press_Ammo_76251": "Press Box of 762x51mm Rounds",
+	"Press_Ammo_55645": "Press Box of 556x45mm Rounds",
+	"Press_Ammo_12": "Press Box of 12g Rounds"
+}

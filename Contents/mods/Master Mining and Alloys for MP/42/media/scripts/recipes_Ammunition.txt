@@ -1,0 +1,637 @@
+module Base
+{
+    craftRecipe Mix_Gunpowder	
+	{
+		time = 150,
+		timedAction = MixingMortarPestle,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		category = Miscellaneous,
+
+		inputs
+		{
+     			item 1 tags[base:mortarpestle] mode:keep,
+			item 1 [Base.Funnel] mode:keep,
+			item 7 [Base.Pulverized_Saltpeter_MP],
+			item 2 [Base.Pulverized_Coal_MP],
+			item 1 [Base.Pulverized_Sulfur_MP],
+			item 1 tags[base:jar] mode:destroy flags[ItemCount],
+			item 1 [Base.JarLid] mode:destroy flags[ItemCount],
+		}
+		outputs
+		{
+			item 1 Base.GunPowder,
+		}
+	}
+    craftRecipe Press_Mold_Large_Casing_Manually
+	{
+		time = 120,
+		timedAction = Making,
+		Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		xpAward = Pottery:5,
+		category = Miscellaneous,
+
+		inputs
+		{
+			item 1 [Base.Clay],
+			item 1 [Base.WoodenTileMold] mode:keep,
+			item 10 [Base.IronBarHalf;Base.SteelBarHalf] mode:destroy flags[ItemCount],
+			item 2 [Base.IronBar;Base.SteelBar] mode:destroy flags[ItemCount],
+		}
+		outputs
+		{
+			item 1 Base.Mold_Large_Casing_Unfired_MP,
+		}
+	}
+    craftRecipe Press_Mold_Large_Casing
+   	{
+		time = 50,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		xpAward = Pottery:5,
+		category = Miscellaneous,
+
+		inputs
+		{
+			item 1 [Base.Clay],
+			item 1 [Base.WoodenTileMold] mode:keep,
+			item 10 [Base.IronBarHalf;Base.SteelBarHalf] mode:destroy flags[ItemCount],
+			item 2 [Base.IronBar;Base.SteelBar] mode:destroy flags[ItemCount],
+		}
+		outputs
+		{
+			item 1 Base.Mold_Large_Casing_Unfired_MP,
+		}
+	}
+    craftRecipe Press_Mold_Small_Casing_Manually
+	{
+		time = 120,
+		timedAction = Making,
+		Tags = Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		xpAward = Pottery:5,
+		category = Miscellaneous,
+
+		inputs
+		{
+			item 1 [Base.Clay],
+			item 1 [Base.WoodenTileMold] mode:keep,
+			item 10 [Base.IronBarQuarter;Base.SteelBarQuarter] mode:destroy flags[ItemCount],
+			item 2 [Base.IronBarHalf;Base.SteelBarHalf] mode:destroy flags[ItemCount],
+		}
+		outputs
+		{
+			item 1 Base.Mold_Small_Casing_Unfired_MP,
+		}
+	}
+    craftRecipe Press_Mold_Small_Casing
+   	{
+		time = 50,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		xpAward = Pottery:5,
+		category = Miscellaneous,
+
+		inputs
+		{
+			item 1 [Base.Clay],
+			item 1 [Base.WoodenTileMold] mode:keep,
+			item 10 [Base.IronBarQuarter;Base.SteelBarQuarter] mode:destroy flags[ItemCount],
+			item 2 [Base.IronBarHalf;Base.SteelBarHalf] mode:destroy flags[ItemCount],
+		}
+		outputs
+		{
+			item 1 Base.Mold_Small_Casing_Unfired_MP,
+		}
+	}
+    craftRecipe Press_Mold_Base_Head_Manually
+	{
+		time = 120,
+		timedAction = Making,
+		Tags = Tags = AnySurfaceCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		xpAward = Pottery:5,
+		category = Miscellaneous,
+
+		inputs
+		{
+			item 1 [Base.Clay],
+			item 1 [Base.WoodenTileMold] mode:keep,
+			item 10 [Base.IronPiece;Base.SteelPiece] mode:destroy flags[ItemCount],
+			item 2 [Base.IronBarQuarter;Base.SteelBarQuarter] mode:destroy flags[ItemCount],
+		}
+		outputs
+		{
+			item 1 Base.Mold_Base_Head_Unfired_MP,
+		}
+	}
+    craftRecipe Press_Mold_Base_Head
+   	{
+		time = 50,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		xpAward = Pottery:5,
+		category = Miscellaneous,
+
+		inputs
+		{
+			item 1 [Base.Clay],
+			item 1 [Base.WoodenTileMold] mode:keep,
+			item 10 [Base.IronPiece;Base.SteelPiece] mode:destroy flags[ItemCount],
+			item 2 [Base.IronBarQuarter;Base.SteelBarQuarter] mode:destroy flags[ItemCount],
+		}
+		outputs
+		{
+			item 1 Base.Mold_Base_Head_Unfired_MP,
+		}
+	}
+    craftRecipe Fire_Mold_Large_Casing
+	{
+		time = 20,
+		timedAction = Making_With_Kiln,
+		Tags = KilnLarge,
+		category = Miscellaneous,
+
+		inputs
+		{
+			item 1 [Base.Mold_Large_Casing_Unfired_MP],
+			item 1 tags[base:startfire],
+			item 1 tags[base:log;base:charcoal],
+		}
+		outputs
+		{
+			item 1 Base.Mold_Large_Casing_Fired_MP,
+		}
+	}
+    craftRecipe Fire_Mold_Small_Casing
+	{
+		time = 20,
+		timedAction = Making_With_Kiln,
+		Tags = KilnLarge,
+		category = Miscellaneous,
+
+		inputs
+		{
+			item 1 [Base.Mold_Small_Casing_Unfired_MP],
+			item 1 tags[base:startfire],
+			item 1 tags[base:log;base:charcoal],
+		}
+		outputs
+		{
+			item 1 Base.Mold_Small_Casing_Fired_MP,
+		}
+	}
+    craftRecipe Fire_Mold_Base_Head
+	{
+		time = 20,
+		timedAction = Making_With_Kiln,
+		Tags = KilnLarge,
+		category = Miscellaneous,
+
+		inputs
+		{
+			item 1 [Base.Mold_Base_Head_Unfired_MP],
+			item 1 tags[base:startfire],
+			item 1 tags[base:log;base:charcoal],
+		}
+		outputs
+		{
+			item 1 Base.Mold_Base_Head_Fired_MP,
+		}
+	}
+    craftRecipe Cast_SteelMold_Large_Casing
+	{
+		time = 200,
+		SkillRequired = Blacksmith:5,
+		Tags = Furnace,InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		category = Blacksmithing,
+		xpAward = Blacksmithing:20,
+
+		inputs
+		{
+			item 1 tags[base:tongs] mode:keep flags[MayDegradeLight],
+			item 1 [Base.Mold_Large_Casing_Fired_MP] mode:destroy flags[ItemCount],
+			item 10 tags[base:charcoal],
+			item 20 [Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel],
+		}
+		outputs
+		{
+			item 1 SteelMold_Large_Casing_MP,
+		}
+	}
+    craftRecipe Cast_SteelMold_Small_Casing
+	{
+		time = 200,
+		SkillRequired = Blacksmith:5,
+		Tags = Furnace,InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		category = Blacksmithing,
+		xpAward = Blacksmithing:20,
+
+		inputs
+		{
+			item 1 tags[base:tongs] mode:keep flags[MayDegradeLight],
+			item 1 [Base.Mold_Small_Casing_Fired_MP] mode:destroy flags[ItemCount],
+			item 10 tags[base:charcoal],
+			item 20 [Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel],
+		}
+		outputs
+		{
+			item 1 SteelMold_Small_Casing_MP,
+		}
+	}
+    craftRecipe Cast_SteelMold_Base_Head
+	{
+		time = 200,
+		SkillRequired = Blacksmith:5,
+		Tags = Furnace,InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		category = Blacksmithing,
+		xpAward = Blacksmithing:20,
+
+		inputs
+		{
+			item 1 tags[base:tongs] mode:keep flags[MayDegradeLight],
+			item 1 [Base.Mold_Base_Head_Fired_MP] mode:destroy flags[ItemCount],
+			item 10 tags[base:charcoal],
+			item 20 [Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel],
+		}
+		outputs
+		{
+			item 1 SteelMold_Base_Head_MP,
+		}
+	}
+    craftRecipe Forge_SteelMold_Large_Bullets
+	{
+		time = 300,
+		SkillRequired = Blacksmith:6;MetalWelding:4,
+		Tags = AdvancedForge;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		timedAction = BuildLowMetal,
+		category = Metalworking,
+		xpAward = Metalworking:20,
+
+		inputs
+		{
+			item 2 [Base.SheetMetal],
+			item 8 [Base.SmallSheetMetal],
+			item 10 [Base.IronBarHalf;Base.SteelBarHalf] mode:destroy flags[ItemCount],
+			item 4 [Base.Pulverized_Coal_MP],
+			item 4 [Base.BlowTorch],
+			item 10 [Base.Coke],
+			item 1 tags[base:weldingmask] mode:keep,
+			item 1 tags[base:tongs;base:metalworkingpliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Mold_Large_Bullets_MP,
+		}
+	}
+    craftRecipe Forge_SteelMold_Small_Bullets
+	{
+		time = 300,
+		SkillRequired = Blacksmith:6;MetalWelding:4,
+		Tags = AdvancedForge;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		timedAction = BuildLowMetal,
+		category = Metalworking,
+		xpAward = Metalworking:20,
+
+		inputs
+		{
+			item 2 [Base.SheetMetal],
+			item 8 [Base.SmallSheetMetal],
+			item 10 [Base.IronBarQuarter;Base.SteelBarQuarter] mode:destroy flags[ItemCount],
+			item 4 [Base.Pulverized_Coal_MP],
+			item 4 [Base.BlowTorch],
+			item 10 [Base.Coke],
+			item 1 tags[base:weldingmask] mode:keep,
+			item 1 tags[base:tongs;base:metalworkingpliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Mold_Small_Bullets_MP,
+		}
+	}
+    craftRecipe Forge_SteelMold_Buck_Shots
+	{
+		time = 300,
+		SkillRequired = Blacksmith:6;MetalWelding:4,
+		Tags = AdvancedForge;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		timedAction = BuildLowMetal,
+		category = Metalworking,
+		xpAward = Metalworking:20,
+
+		inputs
+		{
+			item 2 [Base.SheetMetal],
+			item 8 [Base.SmallSheetMetal],
+			item 10 [Base.IronPiece;Base.SteelPiece] mode:destroy flags[ItemCount],
+			item 4 [Base.Pulverized_Coal_MP],
+			item 4 [Base.BlowTorch],
+			item 10 [Base.Coke],
+			item 1 tags[base:weldingmask] mode:keep,
+			item 1 tags[base:tongs;base:metalworkingpliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Mold_Buck_Shots_MP,
+		}
+	}
+    craftRecipe Press_Ammo_22
+   	{
+		time = 200,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		category = Weaponry,
+
+		inputs
+		{
+			item 1 [Base.SteelMold_Small_Casing_MP] mode:keep,
+			item 1 [Base.Mold_Small_Bullets_MP] mode:keep,
+			item 1 [Base.Sheet_Brass_MP] mode:destroy flags[ItemCount],
+			item 1 [Base.Sheet_Corten_Steel_MP] mode:destroy flags[ItemCount],
+			item 3 [Base.GunPowder],
+			item 1 [Base.HammerForged;Base.Hammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Funnel] mode:keep,
+			
+		}
+		outputs
+		{
+			item 1 Base.22Box,
+		}
+	}
+    craftRecipe Press_Ammo_38
+   	{
+		time = 200,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		category = Weaponry,
+
+		inputs
+		{
+			item 1 [Base.SteelMold_Small_Casing_MP] mode:keep,
+			item 1 [Base.Mold_Small_Bullets_MP] mode:keep,
+			item 3 [Base.Sheet_Brass_MP] mode:destroy flags[ItemCount],
+			item 3 [Base.Sheet_Corten_Steel_MP] mode:destroy flags[ItemCount],
+			item 5 [Base.GunPowder],
+			item 1 [Base.HammerForged;Base.Hammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Funnel] mode:keep,
+			
+		}
+		outputs
+		{
+			item 1 Base.Bullets38Box,
+		}
+	}
+    craftRecipe Press_Ammo_9x19
+   	{
+		time = 200,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		category = Weaponry,
+
+		inputs
+		{
+			item 1 [Base.SteelMold_Small_Casing_MP] mode:keep,
+			item 1 [Base.Mold_Small_Bullets_MP] mode:keep,
+			item 2 [Base.Sheet_Brass_MP] mode:destroy flags[ItemCount],
+			item 2 [Base.Sheet_Corten_Steel_MP] mode:destroy flags[ItemCount],
+			item 6 [Base.GunPowder],
+			item 1 [Base.HammerForged;Base.Hammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Funnel] mode:keep,
+			
+		}
+		outputs
+		{
+			item 1 Base.Bullets9mmBox,
+		}
+	}
+    craftRecipe Press_Ammo_44
+   	{
+		time = 200,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		category = Weaponry,
+
+		inputs
+		{
+			item 1 [Base.SteelMold_Small_Casing_MP] mode:keep,
+			item 1 [Base.Mold_Small_Bullets_MP] mode:keep,
+			item 3 [Base.Sheet_Brass_MP] mode:destroy flags[ItemCount],
+			item 3 [Base.Sheet_Corten_Steel_MP] mode:destroy flags[ItemCount],
+			item 6 [Base.GunPowder],
+			item 1 [Base.HammerForged;Base.Hammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Funnel] mode:keep,
+			
+		}
+		outputs
+		{
+			item 1 Base.Bullets44Box,
+		}
+	}
+    craftRecipe Press_Ammo_45
+   	{
+		time = 200,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		category = Weaponry,
+
+		inputs
+		{
+			item 1 [Base.SteelMold_Small_Casing_MP] mode:keep,
+			item 1 [Base.Mold_Small_Bullets_MP] mode:keep,
+			item 4 [Base.Sheet_Brass_MP] mode:destroy flags[ItemCount],
+			item 4 [Base.Sheet_Corten_Steel_MP] mode:destroy flags[ItemCount],
+			item 8 [Base.GunPowder],
+			item 1 [Base.HammerForged;Base.Hammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Funnel] mode:keep,
+			
+		}
+		outputs
+		{
+			item 1 Base.Bullets45Box,
+		}
+	}
+    craftRecipe Press_Ammo_357
+   	{
+		time = 200,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		category = Weaponry,
+
+		inputs
+		{
+			item 1 [Base.SteelMold_Small_Casing_MP] mode:keep,
+			item 1 [Base.Mold_Small_Bullets_MP] mode:keep,
+			item 4 [Base.Sheet_Brass_MP] mode:destroy flags[ItemCount],
+			item 4 [Base.Sheet_Corten_Steel_MP] mode:destroy flags[ItemCount],
+			item 8 [Base.GunPowder],
+			item 1 [Base.HammerForged;Base.Hammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Funnel] mode:keep,
+			
+		}
+		outputs
+		{
+			item 1 Base.Bullets357Box,
+		}
+	}
+    craftRecipe Press_Ammo_3030
+   	{
+		time = 200,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		category = Weaponry,
+
+		inputs
+		{
+			item 1 [Base.SteelMold_Large_Casing_MP] mode:keep,
+			item 1 [Base.Mold_Large_Bullets_MP] mode:keep,
+			item 2 [Base.Sheet_Aluminized_Steel_MP] mode:destroy flags[ItemCount],
+			item 2 [Base.Sheet_BimetalAlloy_MP] mode:destroy flags[ItemCount],
+			item 6 [Base.GunPowder],
+			item 1 [Base.HammerForged;Base.Hammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Funnel] mode:keep,
+			
+		}
+		outputs
+		{
+			item 1 Base.3030Box,
+		}
+	}
+    craftRecipe Press_Ammo_223
+   	{
+		time = 200,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		category = Weaponry,
+
+		inputs
+		{
+			item 1 [Base.SteelMold_Large_Casing_MP] mode:keep,
+			item 1 [Base.Mold_Large_Bullets_MP] mode:keep,
+			item 2 [Base.Sheet_Aluminized_Steel_MP] mode:destroy flags[ItemCount],
+			item 2 [Base.Sheet_BimetalAlloy_MP] mode:destroy flags[ItemCount],
+			item 4 [Base.GunPowder],
+			item 1 [Base.HammerForged;Base.Hammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Funnel] mode:keep,
+			
+		}
+		outputs
+		{
+			item 1 Base.223Box,
+		}
+	}
+    craftRecipe Press_Ammo_76239
+   	{
+		time = 200,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		category = Weaponry,
+
+		inputs
+		{
+			item 1 [Base.SteelMold_Large_Casing_MP] mode:keep,
+			item 1 [Base.Mold_Large_Bullets_MP] mode:keep,
+			item 3 [Base.Sheet_Aluminized_Steel_MP] mode:destroy flags[ItemCount],
+			item 3 [Base.Sheet_BimetalAlloy_MP] mode:destroy flags[ItemCount],
+			item 8 [Base.GunPowder],
+			item 1 [Base.HammerForged;Base.Hammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Funnel] mode:keep,
+			
+		}
+		outputs
+		{
+			item 1 Base.762Box,
+		}
+	}
+    craftRecipe Press_Ammo_76251
+   	{
+		time = 200,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		category = Weaponry,
+
+		inputs
+		{
+			item 1 [Base.SteelMold_Large_Casing_MP] mode:keep,
+			item 1 [Base.Mold_Large_Bullets_MP] mode:keep,
+			item 3 [Base.Sheet_Aluminized_Steel_MP] mode:destroy flags[ItemCount],
+			item 3 [Base.Sheet_BimetalAlloy_MP] mode:destroy flags[ItemCount],
+			item 10 [Base.GunPowder],
+			item 1 [Base.HammerForged;Base.Hammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Funnel] mode:keep,
+			
+		}
+		outputs
+		{
+			item 1 Base.308Box,
+		}
+	}
+    craftRecipe Press_Ammo_55645
+   	{
+		time = 200,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		category = Weaponry,
+
+		inputs
+		{
+			item 1 [Base.SteelMold_Large_Casing_MP] mode:keep,
+			item 1 [Base.Mold_Large_Bullets_MP] mode:keep,
+			item 4 [Base.Sheet_Aluminized_Steel_MP] mode:destroy flags[ItemCount],
+			item 4 [Base.Sheet_BimetalAlloy_MP] mode:destroy flags[ItemCount],
+			item 15 [Base.GunPowder],
+			item 1 [Base.HammerForged;Base.Hammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Funnel] mode:keep,
+			
+		}
+		outputs
+		{
+			item 1 Base.556Box,
+		}
+	}
+    craftRecipe Press_Ammo_12
+   	{
+		time = 200,
+		timedAction = UseHandPress,
+		Tags = HandPress,
+		NeedToBeLearn = true,
+		category = Weaponry,
+
+		inputs
+		{
+			item 1 [Base.SteelMold_Base_Head_MP] mode:keep,
+			item 1 [Base.Mold_Buck_Shots_MP] mode:keep,
+			item 1 [Base.Scissors;Base.ScissorsForged;Base.ScissorsBlunt;Base.ScissorsBluntMedical] mode:keep,
+			item 4 [Base.Sheet_Bronze_MP] mode:destroy flags[ItemCount],
+			item 4 [Base.Sheet_Lead_MP] mode:destroy flags[ItemCount],
+			item 5 [Base.WaterBottle;Base.PopBottleEmpty;2:Base.BleachEmpty] mode:destroy flags[ItemCount],
+			item 10 [Base.GunPowder],
+			item 1 [Base.HammerForged;Base.Hammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Funnel] mode:keep,
+			
+		}
+		outputs
+		{
+			item 1 Base.ShotgunShellsBox,
+		}
+	}
+}

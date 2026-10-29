@@ -1,0 +1,363 @@
+module Base
+{
+	model Ingot_Aluminized_Steel_MP
+	{
+		mesh = WorldItems/Ingot_Iron,
+        	texture = Metals/Texture_Ingot_Aluminized_Steel,
+		scale = 0.09,
+	}
+	model Ingot_BimetalAlloy_MP
+	{
+		mesh = WorldItems/Ingot_Iron,
+        	texture = Metals/Texture_Ingot_BimetalAlloy,
+		scale = 0.09,
+	}
+	model Ingot_Bronze_MP
+	{
+		mesh = WorldItems/Ingot_Iron,
+        	texture = Metals/Texture_Ingot_Bronze,
+		scale = 0.09,
+	}
+	model Ingot_Corten_Steel_MP
+	{
+		mesh = WorldItems/Ingot_Iron,
+        	texture = Metals/Texture_Ingot_Corten_Steel,
+		scale = 0.09,
+	}
+	model Ingot_Lead_MP
+	{
+		mesh = WorldItems/Ingot_Iron,
+        	texture = Metals/Texture_Ingot_Lead,
+		scale = 0.09,
+	}
+	model Ingot_Tin_MP
+	{
+		mesh = WorldItems/Ingot_Iron,
+        	texture = Metals/Texture_Ingot_Tin,
+		scale = 0.09,
+	}
+	model Ingot_Zinc_MP
+	{
+		mesh = WorldItems/Ingot_Iron,
+        	texture = Metals/Texture_Ingot_Zinc,
+		scale = 0.09,
+	}
+	model Sheet_Aluminized_Steel_MP
+	{
+		mesh = WorldItems/Sheet_Metal,
+        	texture = Metals/Texture_Sheet_Aluminized_Steel,
+		scale = 0.34,
+	}
+	model Sheet_Brass_MP
+	{
+		mesh = WorldItems/Sheet_Metal,
+        	texture = Metals/Texture_Sheet_Brass,
+		scale = 0.34,
+	}
+	model Sheet_BimetalAlloy_MP
+	{
+		mesh = WorldItems/Sheet_Metal,
+        	texture = Metals/Texture_Sheet_BimetalAlloy,
+		scale = 0.34,
+	}
+	model Sheet_Bronze_MP
+	{
+		mesh = WorldItems/Sheet_Metal,
+        	texture = Metals/Texture_Sheet_Bronze,
+		scale = 0.34,
+	}
+	model Sheet_Corten_Steel_MP
+	{
+		mesh = WorldItems/Sheet_Metal,
+        	texture = Metals/Texture_Sheet_Corten_Steel,
+		scale = 0.34,
+	}
+	model Sheet_Iron_MP
+	{
+		mesh = WorldItems/Sheet_Metal,
+        	texture = Metals/Texture_Sheet_Iron,
+		scale = 0.34,
+	}
+	model Sheet_Lead_MP
+	{
+		mesh = WorldItems/Sheet_Metal,
+        	texture = Metals/Texture_Sheet_Lead,
+		scale = 0.34,
+	}
+	model Sheet_Tin_MP
+	{
+		mesh = WorldItems/Sheet_Metal,
+        	texture = Metals/Texture_Sheet_Tin,
+		scale = 0.34,
+	}
+	model Sheet_Zinc_MP
+	{
+		mesh = WorldItems/Sheet_Metal,
+        	texture = Metals/Texture_Sheet_Zinc,
+		scale = 0.34,
+	}
+	model Ore_Aluminum_MP
+	{
+		mesh = WorldItems/IronOre,
+        	texture = Metals/Texture_Ore_Aluminum,
+		scale = 0.20,
+	}
+	model Ore_Lead_MP
+	{
+		mesh = WorldItems/IronOre,
+        	texture = Metals/Texture_Ore_Lead,
+		scale = 0.20,
+	}
+	model Ore_Tin_MP
+	{
+		mesh = WorldItems/IronOre,
+        	texture = Metals/Texture_Ore_Tin,
+		scale = 0.20,
+	}
+	model Ore_Zinc_MP
+	{
+		mesh = WorldItems/IronOre,
+        	texture = Metals/Texture_Ore_Zinc,
+		scale = 0.20,
+	}
+	model Pulverized_Coal_MP
+	{
+		mesh = WorldItems/Quicklime,
+        	texture = Metals/Texture_Pulverized_Coal,
+		scale = 0.08,
+	}
+	model Pulverized_Saltpeter_MP
+	{
+		mesh = WorldItems/Quicklime,
+        	texture = Metals/Texture_Pulverized_Saltpeter,
+		scale = 0.08,
+	}
+	model Pulverized_Stone_MP
+	{
+		mesh = WorldItems/Quicklime,
+        	texture = Metals/Texture_Pulverized_Stone,
+		scale = 0.08,
+	}
+	model Pulverized_Sulfur_MP
+	{
+		mesh = WorldItems/Quicklime,
+        	texture = Metals/Texture_Pulverized_Sulfur,
+		scale = 0.08,
+	}
+	model Chunk_Aluminum_MP
+	{
+		mesh = WorldItems/Chunk_Metal,
+        	texture = Metals/Texture_Chunk_Aluminum,
+		scale = 0.10,
+	}
+	model Chunk_Bronze_MP
+	{
+		mesh = WorldItems/Chunk_Metal,
+        	texture = Metals/Texture_Chunk_Bronze,
+		scale = 0.10,
+	}
+	model Chunk_Copper_MP
+	{
+		mesh = WorldItems/Chunk_Metal,
+        	texture = Metals/Texture_Chunk_Copper,
+		scale = 0.10,
+	}
+	model Chunk_Lead_MP
+	{
+		mesh = WorldItems/Chunk_Metal,
+        	texture = Metals/Texture_Chunk_Lead,
+		scale = 0.10,
+	}
+	model Chunk_Saltpeter_MP
+	{
+		mesh = WorldItems/Chunk_Metal,
+        	texture = Metals/Texture_Chunk_Saltpeter,
+		scale = 0.10,
+	}
+	model Chunk_Sulfur_MP
+	{
+		mesh = WorldItems/Chunk_Metal,
+        	texture = Metals/Texture_Chunk_Sulfur,
+		scale = 0.10,
+	}
+	model Chunk_Tin_MP
+	{
+		mesh = WorldItems/Chunk_Metal,
+        	texture = Metals/Texture_Chunk_Tin,
+		scale = 0.10,
+	}
+	model Chunk_Zinc_MP
+	{
+		mesh = WorldItems/Chunk_Metal,
+        	texture = Metals/Texture_Chunk_Zinc,
+		scale = 0.10,
+	}
+	model Crushed_Stone_MP
+	{
+		mesh = Crushed_Stone_Base,
+        	texture = Metals/Texture_Crushed_Stone,
+		scale = 0.50,
+	}
+	model Saltpeter_MP
+	{
+		mesh = WorldItems/Limestone,
+        	texture = Metals/Texture_Saltpeter,
+		scale = 0.20,
+	}
+	model Sulfur_MP
+	{
+		mesh = WorldItems/Limestone,
+        	texture = Metals/Texture_Sulfur,
+		scale = 0.20,
+	}
+	model Sand_MP
+	{
+		mesh = WorldItems/Quicklime,
+        	texture = Metals/Texture_Sand,
+		scale = 0.10,
+	}
+	model Dirt_MP
+	{
+		mesh = WorldItems/Quicklime,
+        	texture = Metals/Texture_Dirt,
+		scale = 0.10,
+	}
+	model Ceramic_Crucible_Brass_MP
+	{
+		mesh = WorldItems/CrucibleCeramic_Smelted,
+        	texture = Metals/Texture_Ceramic_Crucible_SmltBrass,
+		scale = 0.09,
+	}
+	model Ceramic_Crucible_Bronze_MP
+	{
+		mesh = WorldItems/CrucibleCeramic_Smelted,
+        	texture = Metals/Texture_Ceramic_Crucible_SmltBronze,
+		scale = 0.09,
+	}
+	model Ceramic_Crucible_Corten_Steel_MP
+	{
+		mesh = WorldItems/CrucibleCeramic_Smelted,
+        	texture = Metals/Texture_Ceramic_Crucible_SmltCorten_Steel,
+		scale = 0.09,
+	}
+	model Ceramic_Crucible_Lead_MP
+	{
+		mesh = WorldItems/CrucibleCeramic_Smelted,
+        	texture = Metals/Texture_Ceramic_Crucible_SmltLead,
+		scale = 0.09,
+	}
+	model Ceramic_Crucible_Tin_MP
+	{
+		mesh = WorldItems/CrucibleCeramic_Smelted,
+        	texture = Metals/Texture_Ceramic_Crucible_SmltTin,
+		scale = 0.09,
+	}
+	model Ceramic_Crucible_Zinc_MP
+	{
+		mesh = WorldItems/CrucibleCeramic_Smelted,
+        	texture = Metals/Texture_Ceramic_Crucible_SmltZinc,
+		scale = 0.09,
+	}
+	model Mold_Large_Casing_Unfired_MP
+	{
+		mesh = WorldItems/MoldGlass,
+        	texture = Metals/Texture_Mold_Casing_Unfired,
+		scale = 0.09,
+	}	
+	model Mold_Large_Casing_Fired_MP
+	{
+		mesh = WorldItems/MoldGlass,
+        	texture = Metals/Texture_Mold_Casing_Fired,
+		scale = 0.09,
+	}	
+	model Mold_Small_Casing_Unfired_MP
+	{
+		mesh = WorldItems/MoldGlass,
+        	texture = Metals/Texture_Mold_Casing_Unfired,
+		scale = 0.07,
+	}	
+	model Mold_Small_Casing_Fired_MP
+	{
+		mesh = WorldItems/MoldGlass,
+        	texture = Metals/Texture_Mold_Casing_Fired,
+		scale = 0.07,
+	}
+	model Mold_Base_Head_Unfired_MP
+	{
+		mesh = WorldItems/MoldGlass,
+        	texture = Metals/Texture_Base_Head_Unfired,
+		scale = 0.08,
+	}	
+	model Mold_Base_Head_Fired_MP
+	{
+		mesh = WorldItems/MoldGlass,
+        	texture = Metals/Texture_Base_Head_Fired,
+		scale = 0.08,
+	}
+	model SteelMold_Large_Casing_MP
+	{
+		mesh = WorldItems/MoldGlass,
+        	texture = Metals/Texture_SteelMold_Casing,
+		scale = 0.09,
+	}
+	model SteelMold_Small_Casing_MP
+	{
+		mesh = WorldItems/MoldGlass,
+        	texture = Metals/Texture_SteelMold_Casing,
+		scale = 0.07,
+	}
+	model SteelMold_Base_Head_MP
+	{
+		mesh = WorldItems/MoldGlass,
+        	texture = Metals/Texture_SteelBase_Head,
+		scale = 0.08,
+	}
+	model Mold_Small_Bullets_MP
+	{
+		mesh = Mold_Small_Bullets,
+        	texture = Metals/Texture_Mold_Small_Bullets,
+		scale = 0.25,
+	}
+	model Mold_Large_Bullets_MP
+	{
+		mesh = Mold_Large_Bullets,
+        	texture = Metals/Texture_Mold_Small_Bullets,
+		scale = 0.25,
+	}
+	model Mold_Buck_Shots_MP
+	{
+		mesh = Mold_Buck_Shots,
+        	texture = Metals/Texture_Mold_Small_Bullets,
+		scale = 0.25,
+	}
+	model Mining_Magazine01_MP
+	{
+		mesh = WorldItems/Magazine,
+        	texture = Metals/Texture_Mining_Magazine01,
+		scale = 0.50,
+	}
+	model Mining_Magazine02_MP
+	{
+		mesh = WorldItems/Magazine,
+        	texture = Metals/Texture_Mining_Magazine02,
+		scale = 0.50,
+	}
+	model Mining_Magazine03_MP
+	{
+		mesh = WorldItems/Magazine,
+        	texture = Metals/Texture_Mining_Magazine03,
+		scale = 0.50,
+	}
+	model Mining_Book_MP
+	{
+		mesh = WorldItems/BookClosed,
+        	texture = Metals/Texture_Book_Mining2,
+		scale = 0.13,
+	}
+	model Mining_Book_Slipcase_MP
+	{
+		mesh = WorldItems/Book_Slipcase,
+        	texture = Metals/Texture_Book_Mining_Slipcase,
+		scale = 0.13,
+	}
+}

@@ -1,0 +1,467 @@
+module Base
+{
+    item Ingot_Aluminized_Steel_MP
+    {
+	DisplayCategory = Material,
+        Weight = 6.0,
+        ItemType = base:Normal,
+        Icon = Ingot_Aluminized_Steel,
+        WorldStaticModel = Ingot_Aluminized_Steel_MP,
+    }
+    item Ingot_BimetalAlloy_MP
+    {
+	DisplayCategory = Material,
+        Weight = 6.0,
+        ItemType = base:Normal,
+        Icon = Ingot_BimetalAlloy,
+        WorldStaticModel = Ingot_BimetalAlloy_MP,
+    }
+    item Ingot_Bronze_MP
+    {
+	DisplayCategory = Material,
+        Weight = 6.0,
+        ItemType = base:Normal,
+        Icon = Ingot_Bronze,
+        WorldStaticModel = Ingot_Bronze_MP,
+    }
+    item Ingot_Corten_Steel_MP
+    {
+	DisplayCategory = Material,
+        Weight = 6.0,
+        ItemType = base:Normal,
+        Icon = Ingot_Corten_Steel,
+        WorldStaticModel = Ingot_Corten_Steel_MP,
+    }
+    item Ingot_Lead_MP
+    {
+	DisplayCategory = Material,
+        Weight = 6.0,
+        ItemType = base:Normal,
+        Icon = Ingot_Lead,
+        WorldStaticModel = Ingot_Lead_MP,
+    }
+    item Ingot_Tin_MP
+    {
+	DisplayCategory = Material,
+        Weight = 6.0,
+        ItemType = base:Normal,
+        Icon = Ingot_Tin,
+        WorldStaticModel = Ingot_Tin_MP,
+    }
+    item Ingot_Zinc_MP
+    {
+	DisplayCategory = Material,
+        Weight = 6.0,
+        ItemType = base:Normal,
+        Icon = Ingot_Zinc,
+        WorldStaticModel = Ingot_Zinc_MP,
+    }
+    item Sheet_Aluminized_Steel_MP
+    {
+	DisplayCategory = Material,
+        Weight = 2.0,
+        ItemType = base:Normal,
+        Icon = Sheet_Aluminized_Steel,
+        WorldStaticModel = Sheet_Aluminized_Steel_MP,
+    }
+    item Sheet_BimetalAlloy_MP
+    {
+	DisplayCategory = Material,
+        Weight = 2.0,
+        ItemType = base:Normal,
+        Icon = Sheet_BimetalAlloy,
+        WorldStaticModel = Sheet_BimetalAlloy_MP,
+    }
+    item Sheet_Brass_MP
+    {
+	DisplayCategory = Material,
+        Weight = 2.0,
+        ItemType = base:Normal,
+        Icon = Sheet_Brass,
+        WorldStaticModel = Sheet_Brass_MP,
+    }
+    item Sheet_Bronze_MP
+    {
+	DisplayCategory = Material,
+        Weight = 2.0,
+        ItemType = base:Normal,
+        Icon = Sheet_Bronze,
+        WorldStaticModel = Sheet_Bronze_MP,
+    }
+    item Sheet_Corten_Steel_MP
+    {
+	DisplayCategory = Material,
+        Weight = 2.0,
+        ItemType = base:Normal,
+        Icon = Sheet_Corten_Steel,
+        WorldStaticModel = Sheet_Corten_Steel_MP,
+    }
+    item Sheet_Iron_MP
+    {
+	DisplayCategory = Material,
+        Weight = 2.0,
+        ItemType = base:Normal,
+        Icon = Sheet_Iron,
+        WorldStaticModel = Sheet_Iron_MP,
+    }
+    item Sheet_Lead_MP
+    {
+	DisplayCategory = Material,
+        Weight = 2.0,
+        ItemType = base:Normal,
+        Icon = Sheet_Lead,
+        WorldStaticModel = Sheet_Lead_MP,
+    }
+    item Sheet_Tin_MP
+    {
+	DisplayCategory = Material,
+        Weight = 2.0,
+        ItemType = base:Normal,
+        Icon = Sheet_Tin,
+        WorldStaticModel = Sheet_Tin_MP,
+    }
+    item Sheet_Zinc_MP
+    {
+	DisplayCategory = Material,
+        Weight = 2.0,
+        ItemType = base:Normal,
+        Icon = Sheet_Zinc,
+        WorldStaticModel = Sheet_Zinc_MP,
+    }
+    item Ore_Aluminum_MP
+    {
+	DisplayCategory = Material,
+        Weight = 40.0,
+        ItemType = base:Normal,
+        Icon = Ore_Aluminum,
+        WorldStaticModel = Ore_Aluminum_MP,
+    }
+    item Ore_Lead_MP
+    {
+	DisplayCategory = Material,
+        Weight = 40.0,
+        ItemType = base:Normal,
+        Icon = Ore_Lead,
+        WorldStaticModel = Ore_Lead_MP,
+    }
+    item Ore_Tin_MP
+    {
+	DisplayCategory = Material,
+        Weight = 40.0,
+        ItemType = base:Normal,
+        Icon = Ore_Tin,
+        WorldStaticModel = Ore_Tin_MP,
+    }
+    item Ore_Zinc_MP
+    {
+	DisplayCategory = Material,
+        Weight = 40.0,
+        ItemType = base:Normal,
+        Icon = Ore_Zinc,
+        WorldStaticModel = Ore_Zinc_MP,
+    }
+    item Pulverized_Coal_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.3,
+        ItemType = base:Normal,
+        Icon = Pulverized_Coal,
+        WorldStaticModel = Pulverized_Coal_MP,
+    }
+    item Pulverized_Saltpeter_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.3,
+        ItemType = base:Normal,
+        Icon = Pulverized_Saltpeter,
+        WorldStaticModel = Pulverized_Saltpeter_MP,
+    }
+    item Pulverized_Stone_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.3,
+        ItemType = base:Normal,
+        Icon = Pulverized_Stone,
+        WorldStaticModel = Pulverized_Stone_MP,
+    }
+    item Pulverized_Sulfur_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.3,
+        ItemType = base:Normal,
+        Icon = Pulverized_Sulfur,
+        WorldStaticModel = Pulverized_Sulfur_MP,
+    }
+    item Chunk_Aluminum_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Chunk_Aluminum,
+        WorldStaticModel = Chunk_Aluminum_MP,
+    }
+    item Chunk_Bronze_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Chunk_Bronze,
+        WorldStaticModel = Chunk_Bronze_MP,
+    }
+    item Chunk_Copper_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Chunk_Copper,
+        WorldStaticModel = Chunk_Copper_MP,
+    }
+    item Chunk_Lead_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Chunk_Lead,
+        WorldStaticModel = Chunk_Lead_MP,
+    }
+    item Chunk_Saltpeter_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Chunk_Saltpeter,
+        WorldStaticModel = Chunk_Saltpeter_MP,
+    }
+    item Chunk_Sulfur_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Chunk_Sulfur,
+        WorldStaticModel = Chunk_Sulfur_MP,
+    }
+    item Chunk_Tin_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Chunk_Tin,
+        WorldStaticModel = Chunk_Tin_MP,
+    }
+    item Chunk_Zinc_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Chunk_Zinc,
+        WorldStaticModel = Chunk_Zinc_MP,
+    }
+    item Crushed_Stone_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Crushed_Stone,
+        WorldStaticModel = Crushed_Stone_MP,
+    }
+    item Saltpeter_MP
+    {
+	DisplayCategory = Material,
+        Weight = 2.0,
+        ItemType = base:Normal,
+        Icon = Saltpeter,
+        WorldStaticModel = Saltpeter_MP,
+    }
+    item Sulfur_MP
+    {
+	DisplayCategory = Material,
+        Weight = 2.0,
+        ItemType = base:Normal,
+        Icon = Sulfur,
+        WorldStaticModel = Sulfur_MP,
+    }
+    item Sand_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.3,
+        ItemType = base:Normal,
+        Icon = Sand,
+        WorldStaticModel = Sand_MP,
+    }
+    item Dirt_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.3,
+        ItemType = base:Normal,
+        Icon = Dirt,
+        WorldStaticModel = Dirt_MP,
+    }
+    item Ceramic_Crucible_Brass_MP
+    {
+        DisplayCategory = Material,
+        Weight = 15.0,
+        ItemType = base:drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = false,
+        ReplaceOnDeplete = Base.CeramicCrucible,
+        Icon = Ceramic_Crucible_Brass,
+        WorldStaticModel = Ceramic_Crucible_Brass_MP,
+        Tags = base:hasmetal,
+    }
+    item Ceramic_Crucible_Bronze_MP
+    {
+        DisplayCategory = Material,
+        Weight = 15.0,
+        ItemType = base:drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = false,
+        ReplaceOnDeplete = Base.CeramicCrucible,
+        Icon = Ceramic_Crucible_Bronze,
+        WorldStaticModel = Ceramic_Crucible_Bronze_MP,
+        Tags = base:hasmetal,
+    }
+    item Ceramic_Crucible_Corten_Steel_MP
+    {
+        DisplayCategory = Material,
+        Weight = 15.0,
+        ItemType = base:drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = false,
+        ReplaceOnDeplete = Base.CeramicCrucible,
+        Icon = Ceramic_Crucible_Corten_Steel,
+        WorldStaticModel = Ceramic_Crucible_Corten_Steel_MP,
+        Tags = base:hasmetal,
+    }
+    item Ceramic_Crucible_Lead_MP
+    {
+        DisplayCategory = Material,
+        Weight = 15.0,
+        ItemType = base:drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = false,
+        ReplaceOnDeplete = Base.CeramicCrucible,
+        Icon = Ceramic_Crucible_Lead,
+        WorldStaticModel = Ceramic_Crucible_Lead_MP,
+        Tags = base:hasmetal,
+    }
+    item Ceramic_Crucible_Tin_MP
+    {
+        DisplayCategory = Material,
+        Weight = 15.0,
+        ItemType = base:drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = false,
+        ReplaceOnDeplete = Base.CeramicCrucible,
+        Icon = Ceramic_Crucible_Tin,
+        WorldStaticModel = Ceramic_Crucible_Tin_MP,
+        Tags = base:hasmetal,
+    }
+    item Ceramic_Crucible_Zinc_MP
+    {
+        DisplayCategory = Material,
+        Weight = 15.0,
+        ItemType = base:drainable,
+        UseDelta = 0.05,
+        UseWhileEquipped = false,
+        ReplaceOnDeplete = Base.CeramicCrucible,
+        Icon = Ceramic_Crucible_Zinc,
+        WorldStaticModel = Ceramic_Crucible_Zinc_MP,
+        Tags = base:hasmetal,
+    }
+    item Mold_Large_Casing_Unfired_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Mold_Large_Casing_Unfired,
+        WorldStaticModel = Mold_Large_Casing_Unfired_MP,
+    }
+    item Mold_Large_Casing_Fired_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Mold_Large_Casing_Fired,
+        WorldStaticModel = Mold_Large_Casing_Fired_MP,
+    }
+    item Mold_Small_Casing_Unfired_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.3,
+        ItemType = base:Normal,
+        Icon = Mold_Small_Casing_Unfired,
+        WorldStaticModel = Mold_Small_Casing_Unfired_MP,
+    }
+    item Mold_Small_Casing_Fired_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.3,
+        ItemType = base:Normal,
+        Icon = Mold_Small_Casing_Fired,
+        WorldStaticModel = Mold_Small_Casing_Fired_MP,
+    }
+    item Mold_Base_Head_Unfired_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.4,
+        ItemType = base:Normal,
+        Icon = Mold_Base_Head_Unfired,
+        WorldStaticModel = Mold_Base_Head_Unfired_MP,
+    }
+    item Mold_Base_Head_Fired_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.4,
+        ItemType = base:Normal,
+        Icon = Mold_Base_Head_Fired,
+        WorldStaticModel = Mold_Base_Head_Fired_MP,
+    }
+    item SteelMold_Large_Casing_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.6,
+        ItemType = base:Normal,
+        Icon = SteelMold_Large_Casing,
+        WorldStaticModel = SteelMold_Large_Casing_MP,
+    }
+    item SteelMold_Small_Casing_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.4,
+        ItemType = base:Normal,
+        Icon = SteelMold_Small_Casing,
+        WorldStaticModel = SteelMold_Small_Casing_MP,
+    }
+    item SteelMold_Base_Head_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = SteelMold_Base_Head,
+        WorldStaticModel = SteelMold_Base_Head_MP,
+    }
+    item Mold_Small_Bullets_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Mold_Small_Bullets,
+        WorldStaticModel = Mold_Small_Bullets_MP,
+    }
+    item Mold_Large_Bullets_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Mold_Large_Bullets,
+        WorldStaticModel = Mold_Large_Bullets_MP,
+    }
+    item Mold_Buck_Shots_MP
+    {
+	DisplayCategory = Material,
+        Weight = 0.5,
+        ItemType = base:Normal,
+        Icon = Mold_Buck_Shots,
+        WorldStaticModel = Mold_Buck_Shots_MP,
+    }
+}

@@ -1,0 +1,354 @@
+module Base
+{
+    craftRecipe Break_Aluminum_Ore_into_Aluminum_Chunks
+	{
+		Time = 200,	
+		timedAction = HammerStoneStanding,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+		xpAward = Blacksmithing:10,
+
+		inputs
+		{	
+			item 1 tags[base:clubhammer;base:sledgehammer;base:stonemaul;base:pickaxe] mode:keep flags[MayDegradeLight;Prop1],	
+			item 1 [Base.Ore_Aluminum_MP],
+		}
+
+		outputs
+		{
+			item 12 Chunk_Aluminum_MP,
+		}
+	}
+    craftRecipe Break_Copper_Ore_into_Copper_Chunks
+	{
+		Time = 200,	
+		timedAction = HammerStoneStanding,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+		xpAward = Blacksmithing:10,
+
+		inputs
+		{	
+			item 1 tags[base:clubhammer;base:sledgehammer;base:stonemaul;base:pickaxe] mode:keep flags[MayDegradeLight;Prop1],	
+			item 1 [Base.CopperOre],
+		}
+
+		outputs
+		{
+			item 12 Chunk_Copper_MP,
+		}
+	}
+    craftRecipe Break_Lead_Ore_into_Lead_Chunks
+	{
+		Time = 200,	
+		timedAction = HammerStoneStanding,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+		xpAward = Blacksmithing:10,
+
+		inputs
+		{	
+			item 1 tags[base:clubhammer;base:sledgehammer;base:stonemaul;base:pickaxe] mode:keep flags[MayDegradeLight;Prop1],	
+			item 1 [Base.Ore_Lead_MP],
+		}
+
+		outputs
+		{
+			item 12 Chunk_Lead_MP,
+		}
+	}
+    craftRecipe Break_Saltpeter_into_Saltpeter_Chunks
+	{
+		Time = 200,	
+		timedAction = HammerStoneStanding,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+		xpAward = Blacksmithing:10,
+
+		inputs
+		{	
+			item 1 tags[base:clubhammer;base:sledgehammer;base:stonemaul;base:pickaxe] mode:keep flags[MayDegradeLight;Prop1],	
+			item 1 [Base.Saltpeter_MP],
+		}
+
+		outputs
+		{
+			item 4 Chunk_Saltpeter_MP,
+		}
+	}
+    craftRecipe Break_Sulfur_into_Sulfur_Chunks
+	{
+		Time = 200,	
+		timedAction = HammerStoneStanding,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+		xpAward = Blacksmithing:10,
+
+		inputs
+		{	
+			item 1 tags[base:clubhammer;base:sledgehammer;base:stonemaul;base:pickaxe] mode:keep flags[MayDegradeLight;Prop1],	
+			item 1 [Base.Sulfur_MP],
+		}
+
+		outputs
+		{
+			item 4 Chunk_Sulfur_MP,
+		}
+	}
+    craftRecipe Break_Tin_Ore_into_Tin_Chunks
+	{
+		Time = 200,	
+		timedAction = HammerStoneStanding,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+		xpAward = Blacksmithing:10,
+
+		inputs
+		{	
+			item 1 tags[base:clubhammer;base:sledgehammer;base:stonemaul;base:pickaxe] mode:keep flags[MayDegradeLight;Prop1],	
+			item 1 [Base.Ore_Tin_MP],
+		}
+
+		outputs
+		{
+			item 12 Chunk_Tin_MP,
+		}
+	}
+    craftRecipe Break_Zinc_Ore_into_Zinc_Chunks
+	{
+		Time = 200,	
+		timedAction = HammerStoneStanding,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+		xpAward = Blacksmithing:10,
+
+		inputs
+		{	
+			item 1 tags[base:clubhammer;base:sledgehammer;base:stonemaul;base:pickaxe] mode:keep flags[MayDegradeLight;Prop1],	
+			item 1 [Base.Ore_Zinc_MP],
+		}
+
+		outputs
+		{
+			item 12 Chunk_Zinc_MP,
+		}
+	}
+    craftRecipe Forge_Aluminized_Steel_Ingot
+	{
+		time = 300,
+		SkillRequired = Blacksmith:4;MetalWelding:3,
+		Tags = AdvancedForge;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		timedAction = BuildLowMetal,
+		category = Metalworking,
+		xpAward = Metalworking:20,
+
+		inputs
+		{
+			item 6 [Base.Chunk_Aluminum_MP],
+			item 6 [Base.SteelChunk],
+			item 4 [Base.Oxygen_Tank],
+			item 4 [Base.BlowTorch],
+			item 12 [Base.Coke],
+			item 1 tags[base:weldingmask] mode:keep,
+			item 1 tags[base:tongs;base:metalworkingpliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Ingot_Aluminized_Steel_MP,
+		}
+	}
+    craftRecipe Forge_BimetalAlloy_Ingot
+	{
+		time = 300,
+		SkillRequired = Blacksmith:4;MetalWelding:3,
+		Tags = AdvancedForge;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		timedAction = BuildLowMetal,
+		category = Metalworking,
+		xpAward = Metalworking:20,
+
+		inputs
+		{
+			item 6 [Base.Chunk_Bronze_MP],
+			item 6 [Base.SteelChunk],
+			item 4 [Base.Pulverized_Coal_MP],
+			item 4 [Base.BlowTorch],
+			item 12 [Base.Coke],
+			item 1 tags[base:weldingmask] mode:keep,
+			item 1 tags[base:tongs;base:metalworkingpliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 1 Ingot_BimetalAlloy_MP,
+		}
+	}
+    craftRecipe Forge_Aluminized_Steel_Ingot_Into_Sheets
+	{
+		time = 300,
+		Tags = AdvancedForge;InHandCraft;CanBeDoneFromFloor,
+		timedAction = HammerMetalStanding,
+		category = Blacksmithing,
+		xpAward = Blacksmith:20,
+
+		inputs
+		{
+			item 1 [Base.Ingot_Aluminized_Steel_MP],
+			item 4 [Base.Coke],
+			item 1 [Base.Saw] mode:keep flags[Prop1;MayDegradeHeavy],
+			item 1 [Base.ClubHammerForged;Base.ClubHammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Tongs;Base.MetalworkingPliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 4 Sheet_Aluminized_Steel_MP,
+		}
+	}
+    craftRecipe Forge_BimetalAlloy_Ingot_Into_Sheets
+	{
+		time = 300,
+		Tags = AdvancedForge;InHandCraft;CanBeDoneFromFloor,
+		timedAction = HammerMetalStanding,
+		category = Blacksmithing,
+		xpAward = Blacksmith:20,
+
+		inputs
+		{
+			item 1 [Base.Ingot_BimetalAlloy_MP],
+			item 4 [Base.Coke],
+			item 1 [Base.Saw] mode:keep flags[Prop1;MayDegradeHeavy],
+			item 1 [Base.ClubHammerForged;Base.ClubHammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Tongs;Base.MetalworkingPliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 4 Sheet_BimetalAlloy_MP,
+		}
+	}
+    craftRecipe Forge_Brass_Ingot_Into_Sheets
+	{
+		time = 300,
+		Tags = Forge;InHandCraft;CanBeDoneFromFloor,
+		timedAction = HammerMetalStanding,
+		category = Blacksmithing,
+		xpAward = Blacksmith:20,
+
+		inputs
+		{
+			item 1 [Base.BrassIngot],
+			item 4 tags[base:charcoal],
+			item 1 [Base.Saw] mode:keep flags[Prop1;MayDegradeHeavy],
+			item 1 [Base.ClubHammerForged;Base.ClubHammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Tongs;Base.MetalworkingPliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 4 Sheet_Brass_MP,
+		}
+	}
+    craftRecipe Forge_Bronze_Ingot_Into_Sheets
+	{
+		time = 300,
+		Tags = Forge;InHandCraft;CanBeDoneFromFloor,
+		timedAction = HammerMetalStanding,
+		category = Blacksmithing,
+		xpAward = Blacksmith:20,
+
+		inputs
+		{
+			item 1 [Base.Ingot_Bronze_MP],
+			item 4 tags[base:charcoal],
+			item 1 [Base.Saw] mode:keep flags[Prop1;MayDegradeHeavy],
+			item 1 [Base.ClubHammerForged;Base.ClubHammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Tongs;Base.MetalworkingPliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 4 Sheet_Bronze_MP,
+		}
+	}
+    craftRecipe Forge_Corten_Steel_Ingot_Into_Sheets
+	{
+		time = 300,
+		Tags = Forge;InHandCraft;CanBeDoneFromFloor,
+		timedAction = HammerMetalStanding,
+		category = Blacksmithing,
+		xpAward = Blacksmith:20,
+
+		inputs
+		{
+			item 1 [Base.Ingot_Corten_Steel_MP],
+			item 4 [Base.Coke],
+			item 1 [Base.Saw] mode:keep flags[Prop1;MayDegradeHeavy],
+			item 1 [Base.ClubHammerForged;Base.ClubHammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Tongs;Base.MetalworkingPliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 4 Sheet_Corten_Steel_MP,
+		}
+	}
+    craftRecipe Forge_Lead_Ingot_Into_Sheets
+	{
+		time = 300,
+		Tags = PrimitiveForge;InHandCraft;CanBeDoneFromFloor,
+		timedAction = HammerMetalStanding,
+		category = Blacksmithing,
+		xpAward = Blacksmith:20,
+
+		inputs
+		{
+			item 1 [Base.Ingot_Lead_MP],
+			item 4 tags[base:charcoal],
+			item 1 [Base.Saw] mode:keep flags[Prop1;MayDegradeHeavy],
+			item 1 [Base.ClubHammerForged;Base.ClubHammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Tongs;Base.MetalworkingPliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 4 Sheet_Lead_MP,
+		}
+	}
+    craftRecipe Forge_Tin_Ingot_Into_Sheets
+	{
+		time = 300,
+		Tags = PrimitiveForge;InHandCraft;CanBeDoneFromFloor,
+		timedAction = HammerMetalStanding,
+		category = Blacksmithing,
+		xpAward = Blacksmith:20,
+
+		inputs
+		{
+			item 1 [Base.Ingot_Tin_MP],
+			item 4 tags[base:charcoal],
+			item 1 [Base.Saw] mode:keep flags[Prop1;MayDegradeHeavy],
+			item 1 [Base.ClubHammerForged;Base.ClubHammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Tongs;Base.MetalworkingPliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 4 Sheet_Tin_MP,
+		}
+	}
+    craftRecipe Forge_Zinc_Ingot_Into_Sheets
+	{
+		time = 300,
+		Tags = PrimitiveForge;InHandCraft;CanBeDoneFromFloor,
+		timedAction = HammerMetalStanding,
+		category = Blacksmithing,
+		xpAward = Blacksmith:20,
+
+		inputs
+		{
+			item 1 [Base.Ingot_Zinc_MP],
+			item 4 tags[base:charcoal],
+			item 1 [Base.Saw] mode:keep flags[Prop1;MayDegradeHeavy],
+			item 1 [Base.ClubHammerForged;Base.ClubHammer;Base.SmithingHammer] mode:keep flags[Prop2;MayDegradeLight],
+			item 1 [Base.Tongs;Base.MetalworkingPliers] mode:keep flags[MayDegradeLight],
+		}
+		outputs
+		{
+			item 4 Sheet_Zinc_MP,
+		}
+	}
+}

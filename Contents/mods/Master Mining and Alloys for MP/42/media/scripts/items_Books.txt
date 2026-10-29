@@ -1,0 +1,137 @@
+module Base
+{
+    item Mining_Magazine01_MP
+    {
+	DisplayCategory = RecipeResource,
+        Weight = 0.1,
+	ItemType = base:literature,
+	DisplayName = Foundations of Industry,
+	LearnedRecipes = Pulverize_Coal;Pulverize_Coke;Pulverize_Crushed_Stone;Pulverize_Saltpeter;Pulverize_Sulfur;Mix_Concrete_Powder;Churn_Asphalt_Mixture,
+	ReplaceOnUse = Mining_Magazine01_MP,
+        Icon = Magazine01_Mining,
+	StaticModel = Magazine,
+        WorldStaticModel = Mining_Magazine01_MP,
+	Tooltip = Tooltip_Mining_Magazine01_MP,
+	BoredomChange = -20,
+	StressChange = -15,
+	Tags = base:magazine,
+    }
+    item Mining_Magazine02_MP
+    {
+	DisplayCategory = RecipeResource,
+        Weight = 0.1,
+	ItemType = base:literature,
+	DisplayName = Metallurgics Handbook,
+	LearnedRecipes= Fill_Crucible_Brass;Fill_Crucible_Bronze;Fill_Crucible_Corten_Steel;Cast_Brass_Ingot;Cast_Bronze_Ingot;Cast_Corten_Steel_Ingot;Forge_Aluminized_Steel_Ingot;Forge_BimetalAlloy_Ingot,
+	ReplaceOnUse = Mining_Magazine02_MP,
+        Icon = Magazine02_Mining,
+	StaticModel = Magazine,
+        WorldStaticModel = Mining_Magazine02_MP,
+	Tooltip = Tooltip_Mining_Magazine02_MP,
+	BoredomChange = -20,
+	StressChange = -15,
+	Tags = base:magazine,
+    }
+    item Mining_Magazine03_MP
+    {
+	DisplayCategory = RecipeResource,
+        Weight = 0.1,
+	ItemType = base:literature,
+	DisplayName = Project Forge 1,
+	LearnedRecipes= Press_Mold_Small_Casing_Manually;Press_Mold_Small_Casing;Press_Mold_Large_Casing_Manually;Press_Mold_Large_Casing;Press_Mold_Base_Head_Manually;Press_Mold_Base_Head;Cast_SteelMold_Small_Casing;Cast_SteelMold_Large_Casing;Cast_SteelMold_Base_Head;Forge_SteelMold_Small_Bullets;Forge_SteelMold_Large_Bullets;Forge_SteelMold_Buck_Shots,
+	ReplaceOnUse = Mining_Magazine03_MP,
+        Icon = Magazine03_Mining,
+	StaticModel = Magazine,
+        WorldStaticModel = Mining_Magazine03_MP,
+	Tooltip = Tooltip_Mining_Magazine03_MP,
+	BoredomChange = -20,
+	StressChange = -15,
+	Tags = base:magazine,
+    }
+    item Mining_Magazine04_MP
+    {
+	DisplayCategory = RecipeResource,
+        Weight = 0.1,
+	ItemType = base:literature,
+	DisplayName = Project Forge 2,
+	LearnedRecipes= Mix_Gunpowder;Press_Ammo_22;Press_Ammo_38;Press_Ammo_9x19;Press_Ammo_44;Press_Ammo_45;Press_Ammo_357;Press_Ammo_3030;Press_Ammo_223;Press_Ammo_76239;Press_Ammo_76251;Press_Ammo_55645;Press_Ammo_12,
+	ReplaceOnUse = Mining_Magazine04_MP,
+        Icon = Magazine04_Mining,
+	StaticModel = Magazine,
+        WorldStaticModel = Mining_Magazine03_MP,
+	Tooltip = Tooltip_Mining_Magazine04_MP,
+	BoredomChange = -20,
+	StressChange = -15,
+	Tags = base:magazine,
+    }
+    item Mining_Book01_MP
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book_Mining,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        NumberOfPages = 220,
+        SkillTrained = Mining,
+        WorldStaticModel = Mining_Book_MP,
+    }
+    item Mining_Book02_MP
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book_Mining,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        NumberOfPages = 260,
+        SkillTrained = Mining,
+        WorldStaticModel = Mining_Book_MP,
+    }
+    item Mining_Book03_MP
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book_Mining,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        NumberOfPages = 300,
+        SkillTrained = Mining,
+        WorldStaticModel = Mining_Book_MP,
+    }
+    item Mining_Book04_MP
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book_Mining,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        NumberOfPages = 340,
+        SkillTrained = Mining,
+        WorldStaticModel = Mining_Book_MP,
+    }
+    item Mining_Book05_MP
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book_Mining,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        NumberOfPages = 380,
+        SkillTrained = Mining,
+        WorldStaticModel = Mining_Book_MP,
+    }
+    item Mining_BookSet_MP
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:normal,
+        Weight = 4.0,
+        Icon = Book_Mining_Slipcase,
+        WorldStaticModel = Mining_Book_Slipcase_MP,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = Base.UnpackSetOfBooks,
+    }
+}

@@ -1,0 +1,208 @@
+module Base
+{
+    craftRecipe Pulverize_Coal
+	{
+		Time = 100,
+		timedAction = UseStoneQuern,
+		Tags = Stone_Mill,
+		NeedToBeLearn = true,
+		category = Masonry,
+
+		inputs
+		{
+			item 2 tags[base:charcoal] flags[ItemCount],
+		}
+
+		outputs
+		{
+			item 1 Pulverized_Coal_MP,
+		}
+	}
+    craftRecipe Pulverize_Coke
+	{
+		Time = 100,
+		timedAction = UseStoneQuern,
+		Tags = Stone_Mill,
+		NeedToBeLearn = true,
+		category = Masonry,
+
+		inputs
+		{
+			item 1 [Base.Coke] flags[ItemCount],
+		}
+
+		outputs
+		{
+			item 2 Pulverized_Coal_MP,
+		}
+	}
+    craftRecipe Pulverize_Crushed_Stone
+	{
+		Time = 100,
+		timedAction = UseStoneQuern,
+		Tags = Stone_Mill,
+		NeedToBeLearn = true,
+		category = Masonry,
+
+		inputs
+		{
+			item 1 [Base.Crushed_Stone_MP] flags[ItemCount],
+		}
+
+		outputs
+		{
+			item 2 Pulverized_Stone_MP,
+		}
+	}
+    craftRecipe Pulverize_Saltpeter
+	{
+		Time = 100,
+		timedAction = UseStoneQuern,
+		Tags = Stone_Mill,
+		NeedToBeLearn = true,
+		category = Masonry,
+
+		inputs
+		{
+			item 1 [Base.Chunk_Saltpeter_MP] flags[ItemCount],
+		}
+
+		outputs
+		{
+			item 2 Pulverized_Saltpeter_MP,
+		}
+	}
+    craftRecipe Pulverize_Sulfur
+	{
+		Time = 100,
+		timedAction = UseStoneQuern,
+		Tags = Stone_Mill,
+		NeedToBeLearn = true,
+		category = Masonry,
+
+		inputs
+		{
+			item 1 [Base.Chunk_Sulfur_MP] flags[ItemCount],
+		}
+
+		outputs
+		{
+			item 2 Pulverized_Sulfur_MP,
+		}
+	}
+    craftRecipe Crush_Stone
+	{
+		Time = 50,
+		timedAction = HammerStoneStanding,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Masonry,
+		xpAward = Masonry:5,
+
+		inputs
+		{
+			item 1 [Base.Stone2] flags[ItemCount],
+		}
+
+		outputs
+		{
+			item 2 Crushed_Stone_MP,
+		}
+	}
+    craftRecipe Churn_Asphalt_Mixture
+	{
+		time = 300,
+		timedAction = MakeChum,
+		Tags = ChurnBucket;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		category = Masonry,
+		xpAward = Masonry:20,
+
+		inputs
+		{
+			item 4 [Base.Pulverized_Coal_MP] flags[ItemCount],
+			item 4 [Base.Gravelbag],
+			item 4 [Base.Sandbag],
+			item 1 tags[base:garbagebag] flags[IsEmpty],
+			item 4 [Base.OilVegetable],
+			item 1 [Base.Glue],
+		}
+		outputs
+		{
+			item 1 KnoxBuildworks.AsphaltMixturePowder,
+		}
+	}
+    craftRecipe Mix_Concrete_Powder	
+	{
+		time = 150,
+		timedAction = MixingBucket,
+		Tags = TanLeather;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		category = Masonry,
+		xpAward = Masonry:10,
+
+		inputs
+		{
+     			item 1 [Base.Spatula;Base.Whisk] mode:keep,
+			item 1 [Base.HandShovel] mode:keep,
+			item 4 [Base.Pulverized_Stone_MP],
+			item 2 [Base.Clay],
+			item 2 [Base.Quicklime],
+			item 1 tags[base:garbagebag] flags[IsEmpty],
+		}
+		outputs
+		{
+			item 1 ConcretePowder,
+		}
+	}
+    craftRecipe Fill_Dirt_Sack
+	{
+		timedAction = UnPackSack,
+		time = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Packing,
+		inputs
+		{
+			item 1 [Base.Shovel2;Base.HandShovel;Base.SnowShovel] mode:keep,
+			item 1 [Base.EmptySandbag],
+			item 4 [Base.Dirt_MP],
+		}
+		outputs
+		{
+			item 1 Base.Dirtbag,
+		}
+	}
+   craftRecipe Fill_Sand_Sack
+	{
+		timedAction = UnPackSack,
+		time = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Packing,
+		inputs
+		{
+			item 1 [Base.Shovel2;Base.HandShovel;Base.SnowShovel] mode:keep,
+			item 1 [Base.EmptySandbag],
+			item 4 [Base.Sand_MP],
+		}
+		outputs
+		{
+			item 1 Base.Sandbag,
+		}
+	}
+   craftRecipe Fill_Gravel_Sack
+	{
+		timedAction = UnPackSack,
+		time = 15,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Packing,
+		inputs
+		{
+			item 1 [Base.Shovel2;Base.HandShovel;Base.SnowShovel] mode:keep,
+			item 1 [Base.EmptySandbag],
+			item 4 [Base.Crushed_Stone_MP],
+		}
+		outputs
+		{
+			item 1 Base.Gravelbag,
+		}
+	}
+}

@@ -1,0 +1,274 @@
+module Base
+{
+    craftRecipe Fill_Crucible_Brass
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		xpAward = Blacksmith:150,
+		Tags = Furnace;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		category = Blacksmithing,
+
+		inputs
+		{
+ 			item 1 [Base.CeramicCrucible] mode:destroy,
+			item 7 [Base.Chunk_Copper_MP;Base.CopperScrap] mode:destroy flags[ItemCount],
+			item 5 [Base.Chunk_Zinc_MP] mode:destroy flags[ItemCount],
+			item 2 [Base.Limestone] mode:destroy flags[ItemCount],
+			item 12 tags[base:charcoal],
+        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 Ceramic_Crucible_Brass_MP,
+		}
+	}
+    craftRecipe Fill_Crucible_Bronze
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		xpAward = Blacksmith:150,
+		Tags = Furnace;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		category = Blacksmithing,
+
+		inputs
+		{
+ 			item 1 [Base.CeramicCrucible] mode:destroy,
+			item 9 [Base.Chunk_Copper_MP;Base.CopperScrap] mode:destroy flags[ItemCount],
+			item 3 [Base.Chunk_Tin_MP] mode:destroy flags[ItemCount],
+			item 2 [Base.Limestone] mode:destroy flags[ItemCount],
+			item 12 tags[base:charcoal],
+        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 Ceramic_Crucible_Bronze_MP,
+		}
+	}
+    craftRecipe Fill_Crucible_Corten_Steel
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:4,
+		timedAction = Making,
+		xpAward = Blacksmith:200,
+		Tags = AdvancedFurnace;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		category = Blacksmithing,
+
+		inputs
+		{
+ 			item 1 [Base.CeramicCrucible] mode:destroy,
+			item 10 [Base.SteelChunk] mode:destroy flags[ItemCount],
+			item 2 [Base.Chunk_Copper_MP;Base.CopperScrap] mode:destroy flags[ItemCount],
+			item 2 [Base.Limestone] mode:destroy flags[ItemCount],
+			item 12 tags[base:charcoal],
+        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 Ceramic_Crucible_Corten_Steel_MP,
+		}
+	}
+    craftRecipe Fill_Crucible_Lead
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:2,
+		timedAction = Making,
+		xpAward = Blacksmith:150,
+		Tags = Furnace;InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+
+		inputs
+		{
+ 			item 1 [Base.CeramicCrucible] mode:destroy,
+			item 12 [Base.Chunk_Lead_MP] mode:destroy flags[ItemCount],
+			item 12 tags[base:charcoal],
+        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 Ceramic_Crucible_Lead_MP,
+		}
+	}
+    craftRecipe Fill_Crucible_Tin
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:2,
+		timedAction = Making,
+		xpAward = Blacksmith:150,
+		Tags = Furnace;InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+
+		inputs
+		{
+ 			item 1 [Base.CeramicCrucible] mode:destroy,
+			item 12 [Base.Chunk_Tin_MP] mode:destroy flags[ItemCount],
+			item 12 tags[base:charcoal],
+        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 Ceramic_Crucible_Tin_MP,
+		}
+	}
+    craftRecipe Fill_Crucible_Zinc
+	{
+		Time = 200,
+		SkillRequired = Blacksmith:2,
+		timedAction = Making,
+		xpAward = Blacksmith:150,
+		Tags = Furnace;InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+
+		inputs
+		{
+ 			item 1 [Base.CeramicCrucible] mode:destroy,
+			item 12 [Base.Chunk_Zinc_MP] mode:destroy flags[ItemCount],
+			item 12 tags[base:charcoal],
+        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+			item 1 Ceramic_Crucible_Zinc_MP,
+		}
+	}
+    craftRecipe Cast_Brass_Ingot
+	{
+		Time = 100,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		Tags = Furnace;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		category = Blacksmithing,
+
+		inputs
+		{
+ 			item 12 [Base.Ceramic_Crucible_Brass_MP],
+			item 12 tags[base:charcoal],
+        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+			item 1 [Base.IronIngotMold;Base.SteelIngotMold] mode:keep,
+		}
+
+		outputs
+		{
+			item 1 BrassIngot,
+		}
+	}
+    craftRecipe Cast_Bronze_Ingot
+	{
+		Time = 100,
+		SkillRequired = Blacksmith:3,
+		timedAction = Making,
+		Tags = Furnace;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		category = Blacksmithing,
+
+		inputs
+		{
+ 			item 12 [Base.Ceramic_Crucible_Bronze_MP],
+			item 12 tags[base:charcoal],
+        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+			item 1 [Base.IronIngotMold;Base.SteelIngotMold] mode:keep,
+		}
+
+		outputs
+		{
+			item 1 Ingot_Bronze_MP,
+		}
+	}    
+    craftRecipe Cast_Corten_Steel_Ingot
+	{
+		Time = 150,
+		SkillRequired = Blacksmith:4,
+		timedAction = Making,
+		Tags = AdvancedFurnace;InHandCraft;CanBeDoneFromFloor,
+		NeedToBeLearn = true,
+		category = Blacksmithing,
+
+		inputs
+		{
+ 			item 12 [Base.Ceramic_Crucible_Corten_Steel_MP],
+			item 12 tags[base:charcoal],
+			item 6 [Base.Quicklime] mode:destroy flags[ItemCount],
+        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+			item 1 [Base.IronIngotMold;Base.SteelIngotMold] mode:keep,
+		}
+
+		outputs
+		{
+			item 1 Ingot_Corten_Steel_MP,
+		}
+	}
+    craftRecipe Cast_Lead_Ingot
+	{
+		Time = 100,
+		SkillRequired = Blacksmith:2,
+		timedAction = Making,
+		Tags = Furnace;InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+
+		inputs
+		{
+ 			item 12 [Base.Ceramic_Crucible_Lead_MP],
+			item 12 tags[base:charcoal],
+        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+			item 1 [Base.IronIngotMold;Base.SteelIngotMold] mode:keep,
+		}
+
+		outputs
+		{
+			item 1 Ingot_Lead_MP,
+		}
+	}
+    craftRecipe Cast_Tin_Ingot
+	{
+		Time = 100,
+		SkillRequired = Blacksmith:2,
+		timedAction = Making,
+		Tags = Furnace;InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+
+		inputs
+		{
+ 			item 12 [Base.Ceramic_Crucible_Tin_MP],
+			item 12 tags[base:charcoal],
+        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+			item 1 [Base.IronIngotMold;Base.SteelIngotMold] mode:keep,
+		}
+
+		outputs
+		{
+			item 1 Ingot_Tin_MP,
+		}
+	}
+    craftRecipe Cast_Zinc_Ingot
+	{
+		Time = 100,
+		SkillRequired = Blacksmith:2,
+		timedAction = Making,
+		Tags = Furnace;InHandCraft;CanBeDoneFromFloor,
+		category = Blacksmithing,
+
+		inputs
+		{
+ 			item 12 [Base.Ceramic_Crucible_Zinc_MP],
+			item 12 tags[base:charcoal],
+        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+			item 1 [Base.IronIngotMold;Base.SteelIngotMold] mode:keep,
+		}
+
+		outputs
+		{
+			item 1 Ingot_Zinc_MP,
+		}
+	}
+}

@@ -1,0 +1,10 @@
+id=MasterMiningAlloysMP
+name=Master Mining and Alloys for MP (B42)
+author=Teknogren
+description=Add a new Mining Skill, mineral ores, gemstones and alloys to Build 42.
+poster=poster.png
+icon=icon.png
+tags=Build 42
+versionMin=42.0
+require=KnoxBuildworks
+require=VFE

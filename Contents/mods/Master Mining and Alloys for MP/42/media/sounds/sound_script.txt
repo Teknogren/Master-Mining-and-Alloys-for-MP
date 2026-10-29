@@ -1,0 +1,16 @@
+module Base
+{
+	sound UseStoneQuernLoop
+	{
+		category = Object,
+		clip
+		{
+			file = media/sounds/StoneQuern.ogg,
+			volume = 0.8,
+			pitch = 1.0,
+		}
+		loop = true,
+		is3D = true,
+		maxRange = 15,
+	}
+}

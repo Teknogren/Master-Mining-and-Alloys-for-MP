@@ -1,0 +1,71 @@
+module Base
+{
+    craftRecipe UnpackSetOfMiningBooks
+    {
+        timedAction = UnPackBox,
+        time = 80,
+        Tags = InHandCraft;Packing;CanBeDoneInDark,
+        category = Packing,
+
+        inputs
+        {
+            item 1 [Base.Mining_BookSet_MP] mappers[book1;book2;book3;book4;book5] flags[AllowFavorite;InheritFavorite],
+        }
+
+        outputs
+        {
+            item 1 mapper:book1,
+            item 1 mapper:book2,
+            item 1 mapper:book3,
+            item 1 mapper:book4,
+            item 1 mapper:book5,
+        }
+        itemMapper book1
+        {
+            Base.Mining_Book01_MP = Base.Mining_BookSet_MP,
+        }
+        itemMapper book2
+        {
+            Base.Mining_Book02_MP = Base.Mining_BookSet_MP,
+        }
+        itemMapper book3
+        {
+            Base.Mining_Book03_MP = Base.Mining_BookSet_MP,
+        }
+        itemMapper book4
+        {
+            Base.Mining_Book04_MP = Base.Mining_BookSet_MP,
+        }
+        itemMapper book5
+        {
+            Base.Mining_Book05_MP = Base.Mining_BookSet_MP,
+        }
+    }
+
+    craftRecipe PackSetOfMiningBooks
+    {
+        timedAction = PackingBox,
+        time = 80,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+
+        inputs
+        {
+            item 1 [Base.Mining_Book01_MP] mappers[bookType] flags[AllowFavorite;InheritFavorite],
+            item 1 [Base.Mining_Book02_MP] mappers[bookType] flags[AllowFavorite;InheritFavorite],
+            item 1 [Base.Mining_Book03_MP] mappers[bookType] flags[AllowFavorite;InheritFavorite],
+            item 1 [Base.Mining_Book04_MP] mappers[bookType] flags[AllowFavorite;InheritFavorite],
+            item 1 [Base.Mining_Book05_MP] mappers[bookType] flags[AllowFavorite;InheritFavorite],
+        }
+
+        outputs
+        {
+            item 1 mapper:bookType,
+        }
+        itemMapper bookType
+        {
+            Base.Mining_BookSet_MP = Base.Mining_Book01_MP;Base.Mining_Book02_MP;Base.Mining_Book03_MP;Base.Mining_Book04_MP;Base.Mining_Book05_MP,
+        }
+    }
+
+}

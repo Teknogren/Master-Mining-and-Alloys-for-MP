@@ -1,0 +1,78 @@
+{
+	"Base.Ingot_Aluminized_Steel_MP": "Aluminized Steel Ingot",
+	"Base.Ingot_BimetalAlloy_MP": "BimetalAlloy Ingot",
+	"Base.Ingot_Bronze_MP": "Bronze Ingot",
+	"Base.Ingot_Corten_Steel_MP": "Corten Steel Ingot",
+	"Base.Ingot_Lead_MP": "Lead Ingot",
+	"Base.Ingot_Tin_MP": "Tin Ingot",
+	"Base.Ingot_Zinc_MP": "Zinc Ingot",
+
+	"Base.Sheet_Aluminized_Steel_MP": "Aluminized Steel Sheet",
+	"Base.Sheet_Brass_MP": "Brass Sheet",
+	"Base.Sheet_BimetalAlloy_MP": "BimetalAlloy Sheet",
+	"Base.Sheet_Bronze_MP": "Bronze Sheet",
+	"Base.Sheet_Corten_Steel_MP": "Corten Steel Sheet",
+	"Base.Sheet_Iron_MP": "Iron Sheet",
+	"Base.Sheet_Lead_MP": "Lead Sheet",
+	"Base.Sheet_Tin_MP": "Tin Sheet",
+	"Base.Sheet_Zinc_MP": "Zinc Sheet",
+
+	"Base.Ore_Aluminum_MP": "Aluminum Ore",
+	"Base.Ore_Lead_MP": "Lead Ore",
+	"Base.Ore_Tin_MP": "Tin Ore",
+	"Base.Ore_Zinc_MP": "Zinc Ore",
+
+	"Base.Crushed_Stone_MP": "Crushed Stone",
+	"Base.Saltpeter_MP": "Saltpeter",
+	"Base.Sulfur_MP": "Sulfur",
+	"Base.Sand_MP": "Sand",
+	"Base.Dirt_MP": "Dirt",
+
+	"Base.Pulverized_Coal_MP": "Pulverized Coal",
+	"Base.Pulverized_Saltpeter_MP": "Pulverized Saltpeter",
+	"Base.Pulverized_Stone_MP": "Pulverized Stone",
+	"Base.Pulverized_Sulfur_MP": "Pulverized Sulfur",
+
+	"Base.Chunk_Aluminum_MP": "Aluminum Chunk",
+	"Base.Chunk_Bronze_MP": "Bronze Chunk",
+	"Base.Chunk_Copper_MP": "Copper Chunk",
+	"Base.Chunk_Lead_MP": "Lead Chunk",
+	"Base.Chunk_Saltpeter_MP": "Saltpeter Chunk",
+	"Base.Chunk_Sulfur_MP": "Sulfur Chunk",
+	"Base.Chunk_Tin_MP": "Tin Chunk",
+	"Base.Chunk_Zinc_MP": "Zinc Chunk",
+
+	"Base.Ceramic_Crucible_Brass_MP": "Large Ceramic Crucible with Brass",
+	"Base.Ceramic_Crucible_Bronze_MP": "Large Ceramic Crucible with Bronze",
+	"Base.Ceramic_Crucible_Corten_Steel_MP": "Large Ceramic Crucible with Corten Steel",
+	"Base.Ceramic_Crucible_Lead_MP": "Large Ceramic Crucible with Lead",
+	"Base.Ceramic_Crucible_Tin_MP": "Large Ceramic Crucible with Tin",
+	"Base.Ceramic_Crucible_Zinc_MP": "Large Ceramic Crucible with Zinc",
+
+	"Base.Mold_Large_Casing_Unfired_MP": "Large Casings Mold Unfired",
+	"Base.Mold_Large_Casing_Fired_MP": "Large Casings Mold Fired",
+	"Base.Mold_Small_Casing_Unfired_MP": "Small Casings Mold Unfired",
+	"Base.Mold_Small_Casing_Fired_MP": "Small Casings Mold Fired",
+	"Base.Mold_Base_Head_Unfired_MP": "Base Head Mold Unfired",
+	"Base.Mold_Base_Head_Fired_MP": "Base Head Mold Fired",
+
+	"Base.SteelMold_Large_Casing_MP": "Steel Large Casings Mold",
+	"Base.SteelMold_Small_Casing_MP": "Steel Small Casings Mold",
+	"Base.SteelMold_Base_Head_MP": "Steel Base Head Mold",
+
+	"Base.Mold_Small_Bullets_MP": "Small Bullets Mold",
+	"Base.Mold_Large_Bullets_MP": "Large Bullets Mold",
+	"Base.Mold_Buck_Shots_MP": "Buck Shots Mold",
+
+	"Base.Mining_Magazine01_MP": "Foundations of Industry",
+	"Base.Mining_Magazine02_MP": "Metallurgic's Handbook",
+	"Base.Mining_Magazine03_MP": "Project Forge 1",
+	"Base.Mining_Magazine04_MP": "Project Forge 2",
+
+	"Base.Mining_Book01_MP": "Mining I: \"The Amateur Spelunker's Pocket Book\"",
+	"Base.Mining_Book02_MP": "Mining II: \"Geological Surveying and Vein Identification\"",
+	"Base.Mining_Book03_MP": "Mining III: \"Workstation Efficiency & Ore Sorting\"",
+	"Base.Mining_Book04_MP": "Mining IV: \"Advanced Mineral Extraction Techniques\"",
+	"Base.Mining_Book05_MP": "Mining V: \"Deep Earth Metallurgy & Structural Extraction\"",
+	"Base.Mining_BookSet_MP": "Set of Mining Books"
+}
