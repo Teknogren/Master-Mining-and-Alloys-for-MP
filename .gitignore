@@ -1,0 +1,18 @@
+# Archivos del Sistema Operativo
+Thumbs.db
+.DS_Store
+
+# Carpetas de editores de código (IDE)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Archivos temporales o de notas personales
+*.log
+notas.txt
+todo.txt
+*_OLD.lua
+*.bak
