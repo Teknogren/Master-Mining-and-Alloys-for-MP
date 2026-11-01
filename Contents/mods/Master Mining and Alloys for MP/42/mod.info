@@ -6,5 +6,4 @@ poster=poster.png
 icon=icon.png
 tags=Build 42
 versionMin=42.0
-require=KnoxBuildworks
-require=VFE
+require=KnoxBuildworks,KnoxBuildworksVanillaExpanded,VFExpansion1

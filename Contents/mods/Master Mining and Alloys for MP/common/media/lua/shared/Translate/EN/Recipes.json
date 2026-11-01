@@ -1,17 +1,17 @@
 {
-	"Break_Aluminum_Ore_into_Aluminum_Chunks": "Break Aluminum Ore into Aluminum Chunks",
-	"Break_Copper_Ore_into_Copper_Chunks": "Break Copper Ore into Copper Chunks",
-	"Break_Lead_Ore_into_Lead_Chunks": "Break Lead Ore into Lead Chunks",
-	"Break_Saltpeter_into_Saltpeter_Chunks": "Break Saltpeter into Saltpeter Chunks",
-	"Break_Sulfur_into_Sulfur_Chunks": "Break Sulfur into Sulfur Chunks",
-	"Break_Tin_Ore_into_Tin_Chunks": "Break Tin Ore into Tin Chunks",
-	"Break_Zinc_Ore_into_Zinc_Chunks": "Break Zinc Ore into Zinc Chunks",
+	"Break_Aluminum_Ore_into_Aluminum_Chunks": "Break Aluminum Ore",
+	"Break_Copper_Ore_into_Copper_Chunks": "Break Copper Ore",
+	"Break_Lead_Ore_into_Lead_Chunks": "Break Lead Ore",
+	"Break_Saltpeter_into_Saltpeter_Chunks": "Break Saltpeter",
+	"Break_Sulfur_into_Sulfur_Chunks": "Break Sulfur",
+	"Break_Tin_Ore_into_Tin_Chunks": "Break Tin Ore",
+	"Break_Zinc_Ore_into_Zinc_Chunks": "Break Zinc Ore",
 
-	"Pulverize_Coal": "Mill Charcoal into Pulverized Coal",
-	"Pulverize_Coke": "Mill Coke into Pulverized Coal",
-	"Pulverize_Crushed_Stone": "Mill Crushed Stone into Pulverized Stone",
-	"Pulverize_Saltpeter": "Mill Saltpeter Chunks into Pulverized Saltpeter",
-	"Pulverize_Sulfur": "Mill Sulfur Chunks into Pulverized Sulfur",
+	"Pulverize_Coal": "Make Pulverized Coal",
+	"Pulverize_Coke": "Make Pulverized Coal from Coke",
+	"Pulverize_Crushed_Stone": "Make Pulverized Stone",
+	"Pulverize_Saltpeter": "Make Pulverized Saltpeter",
+	"Pulverize_Sulfur": "Make Pulverized Sulfur",
 
 	"Crush_Stone": "Crush Stone",
 
@@ -36,17 +36,18 @@
 	"Cast_Tin_Ingot": "Forge Tin Ingot",
 	"Cast_Zinc_Ingot": "Forge Zinc Ingot",
 
+	"Forge_Bronze_Ingot_Into_Chunks": "Forge Bronze Chunks",
 	"Forge_Aluminized_Steel_Ingot": "Forge Aluminized Steel Ingot",
 	"Forge_BimetalAlloy_Ingot": "Forge BimetalAlloy Ingot",
 
-	"Forge_Aluminized_Steel_Ingot_Into_Sheets": "Forge Aluminized Steel Ingot into Sheets",
-	"Forge_BimetalAlloy_Ingot_Into_Sheets": "Forge BimetalAlloy Ingot into Sheets",
-	"Forge_Brass_Ingot_Into_Sheets": "Forge Brass Ingot into Sheets",
-	"Forge_Bronze_Ingot_Into_Sheets": "Forge Bronze Ingot into Sheets",
-	"Forge_Corten_Steel_Ingot_Into_Sheets": "Forge Corten Steel Ingot into Sheets",
-	"Forge_Lead_Ingot_Into_Sheets": "Forge Lead Ingot into Sheets",
-	"Forge_Tin_Ingot_Into_Sheets": "Forge Tin Ingot into Sheets",
-	"Forge_Zinc_Ingot_Into_Sheets": "Forge Zinc Ingot into Sheets",
+	"Forge_Aluminized_Steel_Ingot_Into_Sheets": "Forge Aluminized Steel Sheets",
+	"Forge_BimetalAlloy_Ingot_Into_Sheets": "Forge BimetalAlloy Sheets",
+	"Forge_Brass_Ingot_Into_Sheets": "Forge Brass Sheets",
+	"Forge_Bronze_Ingot_Into_Sheets": "Forge Bronze Sheets",
+	"Forge_Corten_Steel_Ingot_Into_Sheets": "Forge Corten Steel Sheets",
+	"Forge_Lead_Ingot_Into_Sheets": "Forge Lead Sheets",
+	"Forge_Tin_Ingot_Into_Sheets": "Forge Tin Sheets",
+	"Forge_Zinc_Ingot_Into_Sheets": "Forge Zinc Sheets",
 
 	"Mix_Gunpowder": "Mix Gunpowder",
 	"Press_Mold_Large_Casing_Manually": "Press Large Casings Mold Manually",
@@ -60,12 +61,12 @@
 	"Fire_Mold_Small_Casing": "Fire Small Casings Mold",
 	"Fire_Mold_Base_Head": "Fire Base Head Mold",
 
-	"Cast_SteelMold_Large_Casing": "Cast Steel Large Casings Mold",
-	"Cast_SteelMold_Small_Casing": "Cast Steel Small Casings Mold",
-	"Cast_SteelMold_Base_Head": "Cast Steel Base Head Mold",
-	"Forge_SteelMold_Large_Bullets": "Forge Steel Large Bullets Mold",
-	"Forge_SteelMold_Small_Bullets": "Forge Steel Small Bullets Mold",
-	"Forge_SteelMold_Buck_Shots": "Forge Steel Buck Shots Mold",
+	"Cast_SteelMold_Large_Casing": "Cast Large Casings Steel Mold",
+	"Cast_SteelMold_Small_Casing": "Cast Small Casings Steel Mold",
+	"Cast_SteelMold_Base_Head": "Cast Base Head Steel Mold",
+	"Forge_SteelMold_Large_Bullets": "Forge Large Bullets Steel Mold",
+	"Forge_SteelMold_Small_Bullets": "Forge Small Bullets Steel Mold",
+	"Forge_SteelMold_Buck_Shots": "Forge Buck Shots Steel Mold",
 
 	"UnpackSetOfMiningBooks": "Unpack Set of Mining Books",
 	"PackSetOfMiningBooks": "Pack Mining Books into a Set",
@@ -81,5 +82,11 @@
 	"Press_Ammo_76239": "Press Box of 762x39mm Rounds",
 	"Press_Ammo_76251": "Press Box of 762x51mm Rounds",
 	"Press_Ammo_55645": "Press Box of 556x45mm Rounds",
-	"Press_Ammo_12": "Press Box of 12g Rounds"
+	"Press_Ammo_12": "Press Box of 12g Rounds",
+
+	"Scrap_Empty_Soda_Cans": "Make Aluminum Scrap",
+	"Forge_Lead_Sheet_Into_Pipe": "Forge Lead Pipe",
+	"Forge_Copper_Sheet_Into_Thin_Pipe": "Forge Copper Thin Pipe",
+
+	"Fill_Oxygen_Tank": "Fill Tank with Oxygen"
 }

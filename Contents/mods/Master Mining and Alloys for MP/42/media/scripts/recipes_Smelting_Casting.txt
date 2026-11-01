@@ -12,12 +12,12 @@ module Base
 
 		inputs
 		{
- 			item 1 [Base.CeramicCrucible] mode:destroy,
+			item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+ 			item 1 [Base.CeramicCrucible] mode:destroy flags[ItemCount],
+			item 12 tags[base:charcoal] mode:destroy flags[ItemCount],			
 			item 7 [Base.Chunk_Copper_MP;Base.CopperScrap] mode:destroy flags[ItemCount],
-			item 5 [Base.Chunk_Zinc_MP] mode:destroy flags[ItemCount],
+			item 5 [Base.Chunk_Zinc_MP;10:Base.Padlock;10:Base.CombinationPadlock;;15:Base.PaintbucketEmpty] mode:destroy flags[ItemCount],
 			item 2 [Base.Limestone] mode:destroy flags[ItemCount],
-			item 12 tags[base:charcoal],
-        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
 		}
 
 		outputs
@@ -37,12 +37,12 @@ module Base
 
 		inputs
 		{
- 			item 1 [Base.CeramicCrucible] mode:destroy,
+    	   	item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],			
+ 			item 1 [Base.CeramicCrucible] mode:destroy flags[ItemCount],
+			item 12 tags[base:charcoal] mode:destroy flags[ItemCount],			
 			item 9 [Base.Chunk_Copper_MP;Base.CopperScrap] mode:destroy flags[ItemCount],
-			item 3 [Base.Chunk_Tin_MP] mode:destroy flags[ItemCount],
+			item 3 [Base.Chunk_Tin_MP;12:Base.TinCanEmpty;12:Base.WaterRationCanEmpty] mode:destroy flags[ItemCount],
 			item 2 [Base.Limestone] mode:destroy flags[ItemCount],
-			item 12 tags[base:charcoal],
-        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
 		}
 
 		outputs
@@ -62,12 +62,12 @@ module Base
 
 		inputs
 		{
- 			item 1 [Base.CeramicCrucible] mode:destroy,
+        	item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],			
+ 			item 1 [Base.CeramicCrucible] mode:destroy flags[ItemCount],
+			item 12 tags[base:charcoal] mode:destroy flags[ItemCount],			
 			item 10 [Base.SteelChunk] mode:destroy flags[ItemCount],
 			item 2 [Base.Chunk_Copper_MP;Base.CopperScrap] mode:destroy flags[ItemCount],
 			item 2 [Base.Limestone] mode:destroy flags[ItemCount],
-			item 12 tags[base:charcoal],
-        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
 		}
 
 		outputs
@@ -86,10 +86,10 @@ module Base
 
 		inputs
 		{
- 			item 1 [Base.CeramicCrucible] mode:destroy,
-			item 12 [Base.Chunk_Lead_MP] mode:destroy flags[ItemCount],
-			item 12 tags[base:charcoal],
-        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+        	item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],			
+ 			item 1 [Base.CeramicCrucible] mode:destroy flags[ItemCount],
+			item 12 tags[base:charcoal] mode:destroy flags[ItemCount],			
+			item 12 [Base.Chunk_Lead_MP;Base.LeadPipe] mode:destroy flags[ItemCount;AllowDestroyedItem],
 		}
 
 		outputs
@@ -108,10 +108,10 @@ module Base
 
 		inputs
 		{
- 			item 1 [Base.CeramicCrucible] mode:destroy,
-			item 12 [Base.Chunk_Tin_MP] mode:destroy flags[ItemCount],
-			item 12 tags[base:charcoal],
-        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+        	item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],			
+ 			item 1 [Base.CeramicCrucible] mode:destroy flags[ItemCount],
+			item 12 tags[base:charcoal] mode:destroy flags[ItemCount],			
+			item 12 [Base.Chunk_Tin_MP;48:Base.TinCanEmpty;48:Base.WaterRationCanEmpty] mode:destroy flags[ItemCount],
 		}
 
 		outputs
@@ -130,10 +130,10 @@ module Base
 
 		inputs
 		{
- 			item 1 [Base.CeramicCrucible] mode:destroy,
-			item 12 [Base.Chunk_Zinc_MP] mode:destroy flags[ItemCount],
-			item 12 tags[base:charcoal],
-        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+        	item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],			
+ 			item 1 [Base.CeramicCrucible] mode:destroy flags[ItemCount],
+			item 12 tags[base:charcoal] mode:destroy flags[ItemCount],			
+			item 12 [Base.Chunk_Zinc_MP;24:Base.Padlock;24:Base.CombinationPadlock;;36:Base.PaintbucketEmpty] mode:destroy flags[ItemCount],
 		}
 
 		outputs
@@ -152,10 +152,10 @@ module Base
 
 		inputs
 		{
- 			item 12 [Base.Ceramic_Crucible_Brass_MP],
-			item 12 tags[base:charcoal],
-        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+        	item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
 			item 1 [Base.IronIngotMold;Base.SteelIngotMold] mode:keep,
+			item 12 tags[base:charcoal] mode:destroy flags[ItemCount],					
+ 			item 12 [Base.Ceramic_Crucible_Brass_MP] flags[ItemCount],
 		}
 
 		outputs
@@ -174,10 +174,10 @@ module Base
 
 		inputs
 		{
- 			item 12 [Base.Ceramic_Crucible_Bronze_MP],
-			item 12 tags[base:charcoal],
-        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+        	item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
 			item 1 [Base.IronIngotMold;Base.SteelIngotMold] mode:keep,
+			item 12 tags[base:charcoal] mode:destroy flags[ItemCount],					
+ 			item 12 [Base.Ceramic_Crucible_Bronze_MP] flags[ItemCount],
 		}
 
 		outputs
@@ -196,11 +196,11 @@ module Base
 
 		inputs
 		{
- 			item 12 [Base.Ceramic_Crucible_Corten_Steel_MP],
-			item 12 tags[base:charcoal],
-			item 6 [Base.Quicklime] mode:destroy flags[ItemCount],
-        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+    	   	item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
 			item 1 [Base.IronIngotMold;Base.SteelIngotMold] mode:keep,
+			item 12 tags[base:charcoal] mode:destroy flags[ItemCount],	
+ 			item 12 [Base.Ceramic_Crucible_Corten_Steel_MP] flags[ItemCount],
+			item 6 [Base.Quicklime] mode:destroy flags[ItemCount],
 		}
 
 		outputs
@@ -218,10 +218,10 @@ module Base
 
 		inputs
 		{
- 			item 12 [Base.Ceramic_Crucible_Lead_MP],
-			item 12 tags[base:charcoal],
-        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+        	item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
 			item 1 [Base.IronIngotMold;Base.SteelIngotMold] mode:keep,
+			item 12 tags[base:charcoal] mode:destroy flags[ItemCount],				
+ 			item 12 [Base.Ceramic_Crucible_Lead_MP] flags[ItemCount],
 		}
 
 		outputs
@@ -239,10 +239,10 @@ module Base
 
 		inputs
 		{
- 			item 12 [Base.Ceramic_Crucible_Tin_MP],
-			item 12 tags[base:charcoal],
-        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+        	item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
 			item 1 [Base.IronIngotMold;Base.SteelIngotMold] mode:keep,
+			item 12 tags[base:charcoal] mode:destroy flags[ItemCount],					
+ 			item 12 [Base.Ceramic_Crucible_Tin_MP] flags[ItemCount],
 		}
 
 		outputs
@@ -260,10 +260,10 @@ module Base
 
 		inputs
 		{
- 			item 12 [Base.Ceramic_Crucible_Zinc_MP],
-			item 12 tags[base:charcoal],
-        		item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+        	item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
 			item 1 [Base.IronIngotMold;Base.SteelIngotMold] mode:keep,
+			item 12 tags[base:charcoal] mode:destroy flags[ItemCount],					
+ 			item 12 [Base.Ceramic_Crucible_Zinc_MP] flags[ItemCount],
 		}
 
 		outputs
