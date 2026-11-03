@@ -88,5 +88,11 @@
 	"Forge_Lead_Sheet_Into_Pipe": "Forge Lead Pipe",
 	"Forge_Copper_Sheet_Into_Thin_Pipe": "Forge Copper Thin Pipe",
 
-	"Fill_Oxygen_Tank": "Fill Tank with Oxygen"
+	"Fill_Oxygen_Tank": "Fill Tank with Oxygen",
+
+	"Obtain_Saltpeter_from_Fertilizer": "Obtain Saltpeter from Fertilizer",
+	"Obtain_Saltpeter_from_Compost": "Obtain Saltpeter from Compost",
+	"Obtain_Saltpeter_from_Cold_Packs": "Obtain Saltpeter from Cold Packs",
+
+	"Gather_Bulk_Gunpowder": "Gather Jar of Gunpowder"
 }

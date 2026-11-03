@@ -12,15 +12,13 @@ module Base
 		{
      		item 1 tags[base:mortarpestle] mode:keep,
 			item 1 [Base.Funnel] mode:keep,
-			item 1 tags[base:jar] mode:destroy flags[ItemCount],
-			item 1 [Base.JarLid] mode:destroy flags[ItemCount],
 			item 7 [Base.Pulverized_Saltpeter_MP] mode:destroy flags[ItemCount],
 			item 2 [Base.Pulverized_Coal_MP] mode:destroy flags[ItemCount],
 			item 1 [Base.Pulverized_Sulfur_MP] mode:destroy flags[ItemCount],
 		}
 		outputs
 		{
-			item 1 Base.GunPowder,
+			item 1 Base.Jar_Gunpowder_MP,
 		}
 	}
     craftRecipe Press_Mold_Large_Casing_Manually
@@ -358,7 +356,7 @@ module Base
 			item 1 [Base.Funnel] mode:keep,			
 			item 1 [Base.SteelMold_Small_Casing_MP] mode:keep flags[MayDegradeHeavy],
 			item 1 [Base.Mold_Small_Bullets_MP] mode:keep flags[MayDegradeHeavy],
-			item 3 [Base.GunPowder],			
+			item 3 [Base.Jar_Gunpowder_MP],			
 			item 1 [Base.Sheet_Brass_MP] mode:destroy flags[ItemCount],
 			item 1 [Base.Sheet_Corten_Steel_MP] mode:destroy flags[ItemCount],
 		}
@@ -381,7 +379,7 @@ module Base
 			item 1 [Base.Funnel] mode:keep,			
 			item 1 [Base.SteelMold_Small_Casing_MP] mode:keep flags[MayDegradeHeavy],
 			item 1 [Base.Mold_Small_Bullets_MP] mode:keep flags[MayDegradeHeavy],
-			item 5 [Base.GunPowder],
+			item 5 [Base.Jar_Gunpowder_MP],
 			item 3 [Base.Sheet_Brass_MP] mode:destroy flags[ItemCount],
 			item 3 [Base.Sheet_Corten_Steel_MP] mode:destroy flags[ItemCount],			
 		}
@@ -404,7 +402,7 @@ module Base
 			item 1 [Base.Funnel] mode:keep,			
 			item 1 [Base.SteelMold_Small_Casing_MP] mode:keep flags[MayDegradeHeavy],
 			item 1 [Base.Mold_Small_Bullets_MP] mode:keep flags[MayDegradeHeavy],
-			item 6 [Base.GunPowder],			
+			item 6 [Base.Jar_Gunpowder_MP],			
 			item 2 [Base.Sheet_Brass_MP] mode:destroy flags[ItemCount],
 			item 2 [Base.Sheet_Corten_Steel_MP] mode:destroy flags[ItemCount],	
 		}
@@ -427,7 +425,7 @@ module Base
 			item 1 [Base.Funnel] mode:keep,			
 			item 1 [Base.SteelMold_Small_Casing_MP] mode:keep flags[MayDegradeHeavy],
 			item 1 [Base.Mold_Small_Bullets_MP] mode:keep flags[MayDegradeHeavy],
-			item 6 [Base.GunPowder],
+			item 6 [Base.Jar_Gunpowder_MP],
 			item 3 [Base.Sheet_Brass_MP] mode:destroy flags[ItemCount],
 			item 3 [Base.Sheet_Corten_Steel_MP] mode:destroy flags[ItemCount],
 		}
@@ -450,7 +448,7 @@ module Base
 			item 1 [Base.Funnel] mode:keep,			
 			item 1 [Base.SteelMold_Small_Casing_MP] mode:keep flags[MayDegradeHeavy],
 			item 1 [Base.Mold_Small_Bullets_MP] mode:keep flags[MayDegradeHeavy],
-			item 8 [Base.GunPowder],			
+			item 8 [Base.Jar_Gunpowder_MP],			
 			item 4 [Base.Sheet_Brass_MP] mode:destroy flags[ItemCount],
 			item 4 [Base.Sheet_Corten_Steel_MP] mode:destroy flags[ItemCount],	
 		}
@@ -473,7 +471,7 @@ module Base
 			item 1 [Base.Funnel] mode:keep,			
 			item 1 [Base.SteelMold_Small_Casing_MP] mode:keep flags[MayDegradeHeavy],
 			item 1 [Base.Mold_Small_Bullets_MP] mode:keep flags[MayDegradeHeavy],
-			item 8 [Base.GunPowder],			
+			item 8 [Base.Jar_Gunpowder_MP],			
 			item 4 [Base.Sheet_Brass_MP] mode:destroy flags[ItemCount],
 			item 4 [Base.Sheet_Corten_Steel_MP] mode:destroy flags[ItemCount],			
 		}
@@ -496,7 +494,7 @@ module Base
 			item 1 [Base.Funnel] mode:keep,			
 			item 1 [Base.SteelMold_Large_Casing_MP] mode:keep flags[MayDegradeHeavy],
 			item 1 [Base.Mold_Large_Bullets_MP] mode:keep flags[MayDegradeHeavy],
-			item 6 [Base.GunPowder],			
+			item 6 [Base.Jar_Gunpowder_MP],			
 			item 2 [Base.Sheet_Aluminized_Steel_MP] mode:destroy flags[ItemCount],
 			item 2 [Base.Sheet_BimetalAlloy_MP] mode:destroy flags[ItemCount],
 		}
@@ -519,7 +517,7 @@ module Base
 			item 1 [Base.Funnel] mode:keep,			
 			item 1 [Base.SteelMold_Large_Casing_MP] mode:keep flags[MayDegradeHeavy],
 			item 1 [Base.Mold_Large_Bullets_MP] mode:keep flags[MayDegradeHeavy],
-			item 4 [Base.GunPowder],			
+			item 4 [Base.Jar_Gunpowder_MP],			
 			item 2 [Base.Sheet_Aluminized_Steel_MP] mode:destroy flags[ItemCount],
 			item 2 [Base.Sheet_BimetalAlloy_MP] mode:destroy flags[ItemCount],		
 		}
@@ -542,7 +540,7 @@ module Base
 			item 1 [Base.Funnel] mode:keep,			
 			item 1 [Base.SteelMold_Large_Casing_MP] mode:keep flags[MayDegradeHeavy],
 			item 1 [Base.Mold_Large_Bullets_MP] mode:keep flags[MayDegradeHeavy],
-			item 8 [Base.GunPowder],	
+			item 8 [Base.Jar_Gunpowder_MP],	
 			item 3 [Base.Sheet_Aluminized_Steel_MP] mode:destroy flags[ItemCount],
 			item 3 [Base.Sheet_BimetalAlloy_MP] mode:destroy flags[ItemCount],
 		}
@@ -565,7 +563,7 @@ module Base
 			item 1 [Base.Funnel] mode:keep,			
 			item 1 [Base.SteelMold_Large_Casing_MP] mode:keep flags[MayDegradeHeavy],
 			item 1 [Base.Mold_Large_Bullets_MP] mode:keep flags[MayDegradeHeavy],
-			item 10 [Base.GunPowder],			
+			item 10 [Base.Jar_Gunpowder_MP],			
 			item 3 [Base.Sheet_Aluminized_Steel_MP] mode:destroy flags[ItemCount],
 			item 3 [Base.Sheet_BimetalAlloy_MP] mode:destroy flags[ItemCount],
 		}
@@ -588,7 +586,7 @@ module Base
 			item 1 [Base.Funnel] mode:keep,			
 			item 1 [Base.SteelMold_Large_Casing_MP] mode:keep flags[MayDegradeHeavy],
 			item 1 [Base.Mold_Large_Bullets_MP] mode:keep flags[MayDegradeHeavy],
-			item 15 [Base.GunPowder],			
+			item 15 [Base.Jar_Gunpowder_MP],			
 			item 4 [Base.Sheet_Aluminized_Steel_MP] mode:destroy flags[ItemCount],
 			item 4 [Base.Sheet_BimetalAlloy_MP] mode:destroy flags[ItemCount],
 		}
@@ -612,14 +610,91 @@ module Base
 			item 1 [Base.Scissors;Base.ScissorsForged;Base.ScissorsBlunt;Base.ScissorsBluntMedical] mode:keep,				
 			item 1 [Base.SteelMold_Base_Head_MP] mode:keep flags[MayDegradeHeavy],
 			item 1 [Base.Mold_Buck_Shots_MP] mode:keep flags[MayDegradeHeavy],
-			item 10 [Base.GunPowder],
+			item 10 [Base.Jar_Gunpowder_MP],
 			item 4 [Base.Sheet_Bronze_MP] mode:destroy flags[ItemCount],
 			item 4 [Base.Sheet_Lead_MP] mode:destroy flags[ItemCount],
-			item 5 [Base.WaterBottle;Base.PopBottleEmpty;2:Base.BleachEmpty] mode:destroy flags[ItemCount],	
+			item 5 [Base.WaterBottle;2:Base.Bleach] mode:destroy flags[IsEmpty],	
 		}
 		outputs
 		{
 			item 1 Base.ShotgunShellsBox,
+		}
+	}
+	craftRecipe Obtain_Saltpeter_from_Fertilizer	
+	{
+		time = 150,
+		timedAction = Making,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Miscellaneous,
+
+		inputs
+		{
+     		item 1 [Base.Strainer] mode:keep,
+			item 1 [Base.Fertilizer] mode:destroy flags[ItemCount],
+		}
+		outputs
+		{
+			item 5 Pulverized_Saltpeter_MP,
+		}
+	}
+		craftRecipe Obtain_Saltpeter_from_Compost
+	{
+		time = 150,
+		timedAction = Making,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Miscellaneous,
+
+		inputs
+		{
+			item 4 [Base.CompostBag],
+			item 2 [Base.Pulverized_Coal_MP] mode:destroy flags[ItemCount],
+            item 1 [Base.Bucket;Base.BucketEmpty;Base.BucketWaterDebug;Base.BucketCarved] mode:destroy mappers[bucketList],
+            -fluid 10.0 categories[Water] mode:mixture,
+		}
+		outputs
+		{
+			item 3 Pulverized_Saltpeter_MP,
+			item 1 mapper:bucketList,
+		}
+		itemMapper bucketList
+		{
+			Base.BucketCarved = Base.BucketCarved,
+			default = Base.Bucket,
+		}
+	}
+		craftRecipe Obtain_Saltpeter_from_Cold_Packs
+	{
+		time = 150,
+		timedAction = Making,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Miscellaneous,
+
+		inputs
+		{
+     		item 1 [Base.Scissors;Base.ScissorsForged;Base.ScissorsBlunt;Base.ScissorsBluntMedical] mode:keep,
+			item 1 [Base.Coldpack] mode:destroy flags[ItemCount],
+		}
+		outputs
+		{
+			item 2 Pulverized_Saltpeter_MP,
+		}
+	}
+		craftRecipe Gather_Bulk_Gunpowder
+	{
+		time = 100,
+		timedAction = Making,
+		Tags = InHandCraft;CanBeDoneFromFloor,
+		category = Packing,
+
+		inputs
+		{
+     		item 1 tags[base:pliers;base:visegrips] mode:keep,
+			item 1 [40:Base.22Bullets;25:Base.Bullets38;20:Base.Bullets9mm;8:Base.Bullets44;16:Base.Bullets45;16:Base.Bullets357;8:Base.3030Bullets;12:Base.223Bullets;6:Base.762Bullets;5:Base.308Bullets;3:Base.556Bullets;6:Base.ShotgunShells] mode:destroy,
+		}
+		outputs
+		{
+			item 1 Base.Jar_Gunpowder_MP,
+			item 1 Pulverized_Saltpeter_MP,
 		}
 	}
 }

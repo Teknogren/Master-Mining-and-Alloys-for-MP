@@ -5,5 +5,3 @@
     SkillBook["Mining"].maxMultiplier3 = 8;
     SkillBook["Mining"].maxMultiplier4 = 12;
     SkillBook["Mining"].maxMultiplier5 = 16;
-
-

@@ -4,7 +4,7 @@ module Base
 	{
 		Time = 100,
 		timedAction = UseStoneQuern,
-		Tags = Stone_Mill,
+		Tags = Stone_Mill;InHandCraft,
 		NeedToBeLearn = true,
 		category = Masonry,
 
@@ -22,7 +22,7 @@ module Base
 	{
 		Time = 100,
 		timedAction = UseStoneQuern,
-		Tags = Stone_Mill,
+		Tags = Stone_Mill;InHandCraft,
 		NeedToBeLearn = true,
 		category = Masonry,
 
@@ -40,7 +40,7 @@ module Base
 	{
 		Time = 100,
 		timedAction = UseStoneQuern,
-		Tags = Stone_Mill,
+		Tags = Stone_Mill;InHandCraft,
 		NeedToBeLearn = true,
 		category = Masonry,
 
@@ -58,7 +58,7 @@ module Base
 	{
 		Time = 100,
 		timedAction = UseStoneQuern,
-		Tags = Stone_Mill,
+		Tags = Stone_Mill;InHandCraft,
 		NeedToBeLearn = true,
 		category = Masonry,
 
@@ -76,7 +76,7 @@ module Base
 	{
 		Time = 100,
 		timedAction = UseStoneQuern,
-		Tags = Stone_Mill,
+		Tags = Stone_Mill;InHandCraft,
 		NeedToBeLearn = true,
 		category = Masonry,
 
