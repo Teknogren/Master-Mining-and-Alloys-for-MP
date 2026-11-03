@@ -36,4 +36,4 @@ Box Mesh and the textures were created using Blender. This mod was created prima
 
 Join Bolognese here - https://discord.gg/fhbA3vnrr9
 
-Workshop link - https://steamcommunity.com/sharedfiles/filedetails/?id=3783669219
+Workshop link - https://steamcommunity.com/sharedfiles/filedetails/?id=3810977863
